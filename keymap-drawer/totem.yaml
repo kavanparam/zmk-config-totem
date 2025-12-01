@@ -54,7 +54,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - '&cmd_tab'
+  - Gui+TAB
   - '0'
   - '1'
   - '2'
@@ -169,8 +169,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+TAB
+  - TAB
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
