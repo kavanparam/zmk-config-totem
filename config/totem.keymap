@@ -30,7 +30,7 @@
         nav_num {
             bindings = <
                    &kp LA(BACKSPACE)   &kp BACKSPACE  &kp UP    &kp DELETE  &kp LA(DELETE)     &kp N5      &kp N6     &kp N7       &kp N8    &kp N9
-                   &kp LA(LEFT_ARROW)  &kp LEFT       &kp DOWN  &kp RIGHT   &kp LG(TAB)        &kp N0      &kp N1     &kp N2       &kp N3    &kp N4
+                   &kp LA(LEFT_ARROW)  &kp LEFT       &kp DOWN  &kp RIGHT   &mt LCMD TAB       &kp N0      &kp N1     &kp N2       &kp N3    &kp N4
 &kp LG(BACKSPACE)  &kp LG(UP_ARROW)    &kp ESC        &kp TAB   &kp ENTER   &kp LG(LS(TAB))    &kp PERIOD  &kp PLUS   &kp MINUS    &kp STAR  &kp FSLH  &kp CARET
                                                       &trans    &trans      &trans             &trans      &kp EQUAL  &kp PERCENT
             >;
@@ -38,8 +38,8 @@
 
         sym_func {
             bindings = <
-           &kp ESC        &kp LEFT_BRACE        &kp RIGHT_BRACE        &none             &kp LSHIFT        &kp F1   &kp F2           &kp F3   &kp F4   &kp F5
-           &kp TAB        &kp LBKT              &kp RBKT               &kp ENTER         &kp BSLH          &kp F6   &kp F7           &kp F8   &kp F9   &kp F10
+           &kp ESC        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH     &kp LSHIFT        &kp F1   &kp F2           &kp F3   &kp F4   &kp F5
+           &kp TAB        &kp LBKT              &kp RBKT               &kp ENTER         &trans            &kp F6   &kp F7           &kp F8   &kp F9   &kp F10
 &kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F11  &kp F12          &kp F13  &kp F14  &kp F15  &kp F16
                                                 &trans                 &trans            &trans            &none    &kp RIGHT_SHIFT  &none
             >;
