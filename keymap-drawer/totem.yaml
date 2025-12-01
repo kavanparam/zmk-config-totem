@@ -34,8 +34,8 @@ layers:
   - /
   - ''''
   - {t: ESCAPE, h: LCMD}
-  - {t: BACKSPACE, h: nav_num}
-  - sym_func
+  - {t: BSPC, h: nav_num}
+  - {t: Gui+BSPC, h: sym_func}
   - RIGHT SHIFT
   - SPACE
   - RIGHT ALT
