@@ -54,7 +54,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - {t: TAB, h: LCMD}
+  - '&cmd_tab'
   - '0'
   - '1'
   - '2'
