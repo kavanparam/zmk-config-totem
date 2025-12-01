@@ -54,7 +54,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - Gui+TAB
+  - {t: TAB, h: LCMD}
   - '0'
   - '1'
   - '2'
@@ -82,7 +82,7 @@ layers:
   - ESC
   - '{'
   - '}'
-  - ''
+  - \
   - LSHIFT
   - F1
   - F2
@@ -93,7 +93,7 @@ layers:
   - '['
   - ']'
   - ENTER
-  - \
+  - {t: ▽, type: trans}
   - F6
   - F7
   - F8
