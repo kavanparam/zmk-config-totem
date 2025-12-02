@@ -21,11 +21,13 @@
         undo {
             bindings = <&kp LG(Z)>;
             key-positions = <21 22>;
+            layers = <0>;
         };
 
         redo {
             bindings = <&kp LG(LS(Z))>;
             key-positions = <21 23>;
+            layers = <0>;
         };
     };
 
