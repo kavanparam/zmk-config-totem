@@ -195,3 +195,8 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [21, 22]
+  k: Gui+Z
+- p: [21, 23]
+  k: Gui+Sft+Z
