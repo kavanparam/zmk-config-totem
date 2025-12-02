@@ -198,5 +198,7 @@ layers:
 combos:
 - p: [21, 22]
   k: Gui+Z
+  l: [base]
 - p: [21, 23]
   k: Gui+Sft+Z
+  l: [base]
