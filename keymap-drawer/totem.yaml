@@ -117,45 +117,6 @@ layers:
   - ''
   - RIGHT SHIFT
   - ''
-  device:
-  - ''
-  - BRI UP
-  - VOL UP
-  - NEXT
-  - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - BRI DN
-  - VOL DN
-  - PLAY PAUSE
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - MUTE
-  - PREV
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT CLR
-  - ''
-  - {type: held}
-  - {type: held}
-  - ''
-  - ''
-  - ''
   hyper:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -195,3 +156,42 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  device:
+  - ''
+  - BRI UP
+  - VOL UP
+  - NEXT
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - BRI DN
+  - VOL DN
+  - PLAY PAUSE
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - MUTE
+  - PREV
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
