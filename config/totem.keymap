@@ -15,12 +15,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        cmd_tab: cmd_tab {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt LCMD &kp TAB &kt LCMD>;
-            label = "CMD_TAB";
+    combos {
+        compatible = "zmk,combos";
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <21 22>;
+        };
+
+        redo {
+            bindings = <&kp LG(LS(Z))>;
+            key-positions = <21 23>;
         };
     };
 
