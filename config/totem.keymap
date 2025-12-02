@@ -65,8 +65,8 @@
 
         hyper {
             bindings = <
-        &trans  &trans  &trans  &kp TAB      &trans    &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &kp LS(TAB)  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &kp TAB      &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans       &trans    &trans  &trans  &trans
             >;
@@ -78,6 +78,11 @@
 
         device {
             if-layers = <2 4>;
+            then-layer = <3>;
+        };
+
+        dev {
+            if-layers = <1 2>;
             then-layer = <3>;
         };
     };
