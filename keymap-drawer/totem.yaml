@@ -67,7 +67,7 @@ layers:
   - ENTER
   - Gui+Sft+TAB
   - .
-  - +
+  - KP PLUS
   - '-'
   - '*'
   - /
