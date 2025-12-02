@@ -45,39 +45,39 @@ layers:
   - UP
   - DELETE
   - Alt+DELETE
-  - '5'
-  - '6'
+  - '*'
   - '7'
   - '8'
   - '9'
+  - '%'
   - Alt+LEFT ARROW
   - LEFT
   - DOWN
   - RIGHT
   - Gui+TAB
-  - '0'
-  - '1'
-  - '2'
-  - '3'
+  - +
   - '4'
+  - '5'
+  - '6'
+  - /
   - Gui+Ctl+Q
   - Gui+UP ARROW
   - ESC
   - TAB
   - ENTER
   - Gui+Sft+TAB
-  - .
-  - KP PLUS
   - '-'
-  - '*'
-  - /
-  - ^
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - '&'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '='
-  - '%'
+  - '0'
   sym_func:
   - ESC
   - '{'
