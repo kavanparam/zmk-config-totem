@@ -29,6 +29,16 @@
             key-positions = <21 23>;
             layers = <0>;
         };
+
+        paste {
+            bindings = <&kp LG(P)>;
+            key-positions = <23 24>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <23 22>;
+        };
     };
 
     keymap {
