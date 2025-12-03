@@ -34,10 +34,10 @@ layers:
   - /
   - ''''
   - {t: ESCAPE, h: LCMD}
-  - {t: BSPC, h: nav_num}
+  - {t: SPACE, h: nav_num}
   - {t: Alt+BSPC, h: sym_func}
   - RIGHT SHIFT
-  - SPACE
+  - BACKSPACE
   - RIGHT ALT
   nav_num:
   - Alt+BACKSPACE
@@ -65,7 +65,7 @@ layers:
   - ESC
   - TAB
   - ENTER
-  - Gui+Sft+TAB
+  - {t: ▽, type: trans}
   - '-'
   - '1'
   - '2'
@@ -114,9 +114,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - RIGHT SHIFT
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   hyper:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
