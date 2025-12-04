@@ -33,11 +33,13 @@
         paste {
             bindings = <&kp LG(P)>;
             key-positions = <23 24>;
+            layers = <0>;
         };
 
         copy {
             bindings = <&kp LG(C)>;
             key-positions = <23 22>;
+            layers = <0>;
         };
     };
 
