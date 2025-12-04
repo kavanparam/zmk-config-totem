@@ -35,9 +35,9 @@ layers:
   - ''''
   - {t: ESCAPE, h: LCMD}
   - {t: SPACE, h: nav_num}
-  - {t: Alt+BSPC, h: sym_func}
+  - {t: Alt+BSPC, h: single_hand}
   - RIGHT SHIFT
-  - BACKSPACE
+  - {t: BACKSPACE, h: sym_func}
   - RIGHT ALT
   nav_num:
   - Alt+BACKSPACE
@@ -113,9 +113,9 @@ layers:
   - F16
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   hyper:
   - {t: ▽, type: trans}
@@ -191,10 +191,49 @@ layers:
   - BT CLR
   - ''
   - ''
+  - ''
+  - ''
   - {type: held}
   - ''
-  - ''
-  - ''
+  single_hand:
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [21, 22]
   k: Gui+Z
