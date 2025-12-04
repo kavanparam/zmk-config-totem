@@ -157,32 +157,32 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   single_hand:
-  - Y
-  - U
-  - I
-  - O
   - P
+  - O
+  - I
+  - U
+  - Y
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - H
-  - J
-  - K
-  - L
   - ;
+  - L
+  - K
+  - J
+  - H
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - N
-  - M
-  - ','
-  - .
   - /
+  - .
+  - ','
+  - M
+  - N
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
