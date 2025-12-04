@@ -15,7 +15,7 @@ layers:
   - S
   - D
   - F
-  - {t: G, h: hyper}
+  - {t: G, h: z_hyper}
   - H
   - J
   - K
@@ -54,7 +54,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - Gui+TAB
+  - {t: ▽, type: trans}
   - +
   - '4'
   - '5'
@@ -65,7 +65,7 @@ layers:
   - ESC
   - TAB
   - ENTER
-  - {t: ▽, type: trans}
+  - Sft+TAB
   - '-'
   - '1'
   - '2'
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  hyper:
+  z_hyper:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
