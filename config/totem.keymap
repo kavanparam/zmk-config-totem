@@ -14,11 +14,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-&mt {
-    flavor = "tap-unless-interrupted";
-    tapping-term-ms = <280>;
-};
-
 / {
     combos {
         compatible = "zmk,combos";
@@ -48,15 +43,27 @@
         };
     };
 
+    behaviors {
+        mt_hyp: mt_hyp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "Hyperkey conf";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <250>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         base {
             bindings = <
-           &kp Q  &kp W  &kp E            &kp R        &mt LA(LC(LG(LSHIFT))) T    &kp Y            &kp U          &kp I          &kp O    &kp P
-           &kp A  &kp S  &kp D            &kp F        &lt 3 G                     &kp H            &kp J          &kp K          &kp L    &kp SEMI
-&kp LCTRL  &kp Z  &kp X  &kp C            &kp V        &kp B                       &kp N            &kp M          &kp COMMA      &kp DOT  &kp FSLH  &kp APOS
-                         &mt LCMD ESCAPE  &lt 1 SPACE  &lt 2 LA(BSPC)              &kp RIGHT_SHIFT  &kp BACKSPACE  &kp RIGHT_ALT
+           &kp Q  &kp W  &kp E            &kp R        &mt_hyp LA(LC(LG(LSHIFT))) T    &kp Y            &kp U          &kp I          &kp O    &kp P
+           &kp A  &kp S  &kp D            &kp F        &lt 3 G                         &kp H            &kp J          &kp K          &kp L    &kp SEMI
+&kp LCTRL  &kp Z  &kp X  &kp C            &kp V        &kp B                           &kp N            &kp M          &kp COMMA      &kp DOT  &kp FSLH  &kp APOS
+                         &mt LCMD ESCAPE  &lt 1 SPACE  &lt 2 LA(BSPC)                  &kp RIGHT_SHIFT  &kp BACKSPACE  &kp RIGHT_ALT
             >;
         };
 
