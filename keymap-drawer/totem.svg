@@ -306,7 +306,7 @@ path.combo {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="214" y="141" width="28" height="26" class="combo"/>
-<text x="228" y="154" class="combo tap">Gui+P</text>
+<text x="228" y="154" class="combo tap">Gui+V</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="158" y="144" width="28" height="26" class="combo"/>

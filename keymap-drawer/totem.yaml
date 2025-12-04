@@ -203,7 +203,7 @@ combos:
   k: Gui+Sft+Z
   l: [base]
 - p: [23, 24]
-  k: Gui+P
+  k: Gui+V
   l: [base]
 - p: [23, 22]
   k: Gui+C
