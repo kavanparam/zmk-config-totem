@@ -42,7 +42,7 @@ layers:
   nav_num:
   - Alt+BACKSPACE
   - BACKSPACE
-  - UP
+  - {t: ▽, type: trans}
   - DELETE
   - Alt+DELETE
   - '*'
@@ -52,9 +52,9 @@ layers:
   - .
   - Alt+LEFT ARROW
   - LEFT
+  - UP
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
   - +
   - '4'
   - '5'
