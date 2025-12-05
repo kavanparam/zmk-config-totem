@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LCMD}
+  - {t: S, h: LALT}
+  - {t: D, h: LSHIFT}
+  - {t: F, h: LCTRL}
   - {t: G, h: z_hyper}
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: RCTRL}
+  - {t: K, h: RSHIFT}
+  - {t: L, h: RALT}
+  - {t: ;, h: RCMD}
   - LCTRL
   - Z
   - X
@@ -36,7 +36,7 @@ layers:
   - {t: ESCAPE, h: LCMD}
   - {t: SPACE, h: nav_num}
   - {t: TAB, h: single_hand}
-  - RIGHT SHIFT
+  - {t: ENTER, h: RIGHT SHIFT}
   - {t: BACKSPACE, h: sym_func}
   - {t: AltGr+BACKSPACE, h: RIGHT ALT}
   nav_num:
