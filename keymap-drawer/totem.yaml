@@ -20,7 +20,7 @@ layers:
   - {t: J, h: RCTRL}
   - {t: K, h: RSHIFT}
   - {t: L, h: RALT}
-  - {t: ;, h: RCMD}
+  - {t: ;, h: LCMD}
   - LCTRL
   - Z
   - X
@@ -36,13 +36,13 @@ layers:
   - {t: ESCAPE, h: LCMD}
   - {t: SPACE, h: nav_num}
   - {t: TAB, h: single_hand}
-  - {t: ENTER, h: RIGHT SHIFT}
+  - {t: ENTER, h: Alt+Ctl+Gui+LSHIFT}
   - {t: BACKSPACE, h: sym_func}
-  - {t: AltGr+BACKSPACE, h: RIGHT ALT}
+  - {t: AltGr+BACKSPACE, h: RSHIFT}
   nav_num:
   - Alt+BACKSPACE
   - BACKSPACE
-  - {t: ▽, type: trans}
+  - UP
   - DELETE
   - Alt+DELETE
   - '*'
@@ -52,9 +52,9 @@ layers:
   - .
   - Alt+LEFT ARROW
   - LEFT
-  - UP
   - DOWN
   - RIGHT
+  - {t: ▽, type: trans}
   - +
   - '4'
   - '5'
