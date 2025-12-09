@@ -9,3 +9,7 @@
         , <&xiao_d 8 GPIO_ACTIVE_HIGH>
         ;
 };
+
+&mouse {
+    status = "okay";
+};
