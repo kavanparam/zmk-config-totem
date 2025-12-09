@@ -11,7 +11,3 @@ manifest:
       import: app/west.yml
   self:
     path: config
-    
-build:
-  kconfig: |
-    CONFIG_ZMK_POINTING=y
