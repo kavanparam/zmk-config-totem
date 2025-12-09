@@ -50,7 +50,7 @@ layers:
   - '8'
   - '9'
   - .
-  - Alt+LEFT ARROW
+  - '&msc SCRL_UP'
   - LEFT
   - DOWN
   - RIGHT
@@ -61,11 +61,11 @@ layers:
   - '6'
   - ':'
   - Gui+Ctl+Q
-  - Gui+UP ARROW
+  - '&msc SCRL_DOWN'
   - ESC
   - TAB
   - ENTER
-  - Sft+TAB
+  - '&mkp LCLK'
   - '-'
   - '1'
   - '2'
