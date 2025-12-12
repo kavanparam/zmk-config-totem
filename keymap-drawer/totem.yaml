@@ -54,7 +54,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
   - +
   - '4'
   - '5'
@@ -65,7 +65,7 @@ layers:
   - ESC
   - TAB
   - ENTER
-  - '&mkp LCLK'
+  - {t: ▽, type: trans}
   - '-'
   - '1'
   - '2'
