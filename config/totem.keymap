@@ -96,10 +96,10 @@
 
         nav_num {
             bindings = <
-               &kp LA(BACKSPACE)  &kp BACKSPACE  &kp UP    &kp DELETE  &kp LA(DELETE)    &kp STAR   &kp N7        &kp N8  &kp N9  &kp DOT
-               &msc SCRL_UP       &kp LEFT       &kp DOWN  &kp RIGHT   &mkp LCLK         &kp PLUS   &kp N4        &kp N5  &kp N6  &kp COLON
-&kp LG(LC(Q))  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &trans            &kp MINUS  &kp NUMBER_1  &kp N2  &kp N3  &kp SLASH  &kp AMPERSAND
-                                                 &trans    &trans      &trans            &trans     &kp EQUAL     &kp N0
+               &kp LA(BACKSPACE)  &kp BACKSPACE  &kp UP    &kp DELETE  &kp LA(DELETE)    &kp STAR   &kp N7         &kp N8  &kp N9  &kp DOT
+               &msc SCRL_UP       &kp LEFT       &kp DOWN  &kp RIGHT   &mkp LCLK         &kp PLUS   &kp N4         &kp N5  &kp N6  &kp COLON
+&kp LG(LC(Q))  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &trans            &kp MINUS  &kp NUMBER_1   &kp N2  &kp N3  &kp SLASH  &kp AMPERSAND
+                                                 &trans    &trans      &trans            &kp EQUAL  &kp BACKSPACE  &kp N0
             >;
         };
 
@@ -108,7 +108,7 @@
            &kp ESC        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH     &kp LSHIFT        &kp F1   &kp F2   &kp F3   &kp F4   &kp F5
            &kp TAB        &kp LBKT              &kp RBKT               &kp ENTER         &trans            &kp F6   &kp F7   &kp F8   &kp F9   &kp F10
 &kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &kp F16
-                                                &trans                 &trans            &trans            &trans   &trans   &trans
+                                                &trans                 &kp SPACE         &trans            &trans   &trans   &trans
             >;
         };
 
