@@ -14,7 +14,7 @@ layers:
   - {t: A, h: LCMD}
   - {t: S, h: LALT}
   - {t: D, h: LSHIFT}
-  - {t: F, h: LCTRL}
+  - {t: '&td_f_layer', h: LCTRL}
   - {t: G, h: z_hyper}
   - H
   - {t: J, h: RCTRL}
