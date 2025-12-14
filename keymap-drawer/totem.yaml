@@ -36,7 +36,7 @@ layers:
   - {t: ESCAPE, h: LCMD}
   - {t: SPACE, h: nav_num}
   - {t: TAB, h: single_hand}
-  - {t: ENTER, h: Alt+Ctl+Gui+LSHIFT}
+  - {t: ENTER, h: z_hyper}
   - {t: BACKSPACE, h: sym_func}
   - {t: Alt+BACKSPACE, h: LSHIFT, s: Alt+DEL}
   nav_num:
@@ -121,7 +121,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,7 +130,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - TAB
+  - {t: ▽, type: trans}
+  - F
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -199,7 +199,7 @@ layers:
   - ''
   - BRI UP
   - VOL UP
-  - NEXT
+  - PLAY PAUSE
   - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -209,7 +209,7 @@ layers:
   - {t: ▽, type: trans}
   - BRI DN
   - VOL DN
-  - PLAY PAUSE
+  - NEXT
   - {type: held}
   - ''
   - ''
