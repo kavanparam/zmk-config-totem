@@ -140,10 +140,10 @@
 
         base {
             bindings = <
-           &kp Q                    &kp W                    &kp E                      &kp R                    &mt_hyp LA(LC(LG(LSHIFT))) T    &kp Y                         &kp U                     &kp I                      &kp O                    &kp P
-           &ht_hrm_timeless LCMD A  &ht_hrm_timeless LALT S  &ht_hrm_timeless LSHIFT D  &ht_hrm_f_layer LCTRL F  &lt 3 G                         &kp H                         &ht_hrm_timeless RCTRL J  &ht_hrm_timeless RSHIFT K  &ht_hrm_timeless RALT L  &ht_hrm_timeless LCMD SEMICOLON
-&kp LCTRL  &kp Z                    &kp X                    &kp C                      &kp V                    &kp B                           &kp N                         &kp M                     &kp COMMA                  &kp DOT                  &kp FSLH                         &kp APOS
-                                                             &mt LCMD ESCAPE            &lt 1 SPACE              &lt 4 TAB                       &mt LA(LC(LG(LSHIFT))) ENTER  &lt 2 BACKSPACE           &ht_shift LSHIFT 0
+           &kp Q                    &kp W                    &kp E                      &kp R                     &mt_hyp LA(LC(LG(LSHIFT))) T    &kp Y        &kp U                     &kp I                      &kp O                    &kp P
+           &ht_hrm_timeless LCMD A  &ht_hrm_timeless LALT S  &ht_hrm_timeless LSHIFT D  &ht_hrm_timeless LCTRL F  &lt 3 G                         &kp H        &ht_hrm_timeless RCTRL J  &ht_hrm_timeless RSHIFT K  &ht_hrm_timeless RALT L  &ht_hrm_timeless LCMD SEMICOLON
+&kp LCTRL  &kp Z                    &kp X                    &kp C                      &kp V                     &kp B                           &kp N        &kp M                     &kp COMMA                  &kp DOT                  &kp FSLH                         &kp APOS
+                                                             &mt LCMD ESCAPE            &lt 1 SPACE               &lt 4 TAB                       &lt 3 ENTER  &lt 2 BACKSPACE           &ht_shift LSHIFT 0
             >;
         };
 
@@ -167,10 +167,10 @@
 
         z_hyper {
             bindings = <
-        &trans  &trans  &trans  &kp LS(TAB)  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &kp TAB      &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans       &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &kp F   &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
@@ -185,8 +185,8 @@
 
         device {
             bindings = <
-       &none   &kp C_BRI_UP  &kp C_VOL_UP  &kp C_NEXT        &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-       &trans  &kp C_BRI_DN  &kp C_VOL_DN  &kp C_PLAY_PAUSE  &none    &none         &none         &none         &none         &none
+       &none   &kp C_BRI_UP  &kp C_VOL_UP  &kp C_PLAY_PAUSE  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+       &trans  &kp C_BRI_DN  &kp C_VOL_DN  &kp C_NEXT        &none    &none         &none         &none         &none         &none
 &none  &none   &none         &kp C_MUTE    &kp C_PREV        &none    &none         &none         &none         &none         &none         &bt BT_CLR
                              &none         &none             &none    &none         &none         &none
             >;
