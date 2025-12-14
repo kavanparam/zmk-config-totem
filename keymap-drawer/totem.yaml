@@ -253,3 +253,6 @@ combos:
 - p: [22, 24]
   k: Gui+C
   l: [base]
+- p: [4, 3]
+  k: PLAY PAUSE
+  l: [base]
