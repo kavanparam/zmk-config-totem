@@ -80,6 +80,25 @@
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&none>;
         };
+
+        mm_opt_del: mm_opt_del {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_OPT_DEL";
+            bindings = <&kp LA(BACKSPACE)>, <&kp LA(DEL)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mt_shift: mt_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_SHIFT";
+            bindings = <&kp>, <&mm_opt_del>;
+
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+        };
     };
 
     keymap {
@@ -90,7 +109,7 @@
            &kp Q                    &kp W                    &kp E                      &kp R                     &mt_hyp LA(LC(LG(LSHIFT))) T    &kp Y                         &kp U                     &kp I                      &kp O                    &kp P
            &mt_timeless_hrm LCMD A  &mt_timeless_hrm LALT S  &mt_timeless_hrm LSHIFT D  &mt_timeless_hrm LCTRL F  &lt 3 G                         &kp H                         &mt_timeless_hrm RCTRL J  &mt_timeless_hrm RSHIFT K  &mt_timeless_hrm RALT L  &mt_timeless_hrm LCMD SEMICOLON
 &kp LCTRL  &kp Z                    &kp X                    &kp C                      &kp V                     &kp B                           &kp N                         &kp M                     &kp COMMA                  &kp DOT                  &kp FSLH                         &kp APOS
-                                                             &mt LCMD ESCAPE            &lt 1 SPACE               &lt 4 TAB                       &mt LA(LC(LG(LSHIFT))) ENTER  &lt 2 BACKSPACE           &mt RSHIFT RA(BACKSPACE)
+                                                             &mt LCMD ESCAPE            &lt 1 SPACE               &lt 4 TAB                       &mt LA(LC(LG(LSHIFT))) ENTER  &lt 2 BACKSPACE           &mt_shift LSHIFT 0
             >;
         };
 
