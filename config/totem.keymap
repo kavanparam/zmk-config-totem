@@ -73,9 +73,9 @@
             tapping-term-ms = <250>;
         };
 
-        mt_timeless_hrm: mt_timeless_hrm {
+        ht_hrm_timeless: ht_hrm_timeless {
             compatible = "zmk,behavior-hold-tap";
-            label = "Urod's timeless hrm, zmk config.";
+            label = "Urod timeless hrm, zmk config.";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -86,11 +86,11 @@
             hold-trigger-on-release;
         };
 
-        layers: layers {
+        td_f_layer: td_f_layer {
             compatible = "zmk,behavior-tap-dance";
-            label = "LAYERS";
+            label = "TD_F_LAYER";
             #binding-cells = <0>;
-            bindings = <&kp ESC>, <&none>;
+            bindings = <&kp F>, <&key_repeat>;
         };
 
         mm_opt_del: mm_opt_del {
@@ -111,6 +111,19 @@
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
         };
+
+        ht_hrm_k_layer: ht_hrm_k_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_HRM_K_LAYER";
+            bindings = <&kp>, <&td_f_layer>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <350>;
+            quick-tap-ms = <175>;
+            flavor = "balanced";
+            require-prior-idle-ms = <50>;
+            hold-trigger-on-release;
+        };
     };
 
     keymap {
@@ -118,10 +131,10 @@
 
         base {
             bindings = <
-           &kp Q                    &kp W                    &kp E                      &kp R                     &mt_hyp LA(LC(LG(LSHIFT))) T    &kp Y                         &kp U                     &kp I                      &kp O                    &kp P
-           &mt_timeless_hrm LCMD A  &mt_timeless_hrm LALT S  &mt_timeless_hrm LSHIFT D  &mt_timeless_hrm LCTRL F  &lt 3 G                         &kp H                         &mt_timeless_hrm RCTRL J  &mt_timeless_hrm RSHIFT K  &mt_timeless_hrm RALT L  &mt_timeless_hrm LCMD SEMICOLON
-&kp LCTRL  &kp Z                    &kp X                    &kp C                      &kp V                     &kp B                           &kp N                         &kp M                     &kp COMMA                  &kp DOT                  &kp FSLH                         &kp APOS
-                                                             &mt LCMD ESCAPE            &lt 1 SPACE               &lt 4 TAB                       &mt LA(LC(LG(LSHIFT))) ENTER  &lt 2 BACKSPACE           &mt_shift LSHIFT 0
+           &kp Q                    &kp W                    &kp E                      &kp R                    &mt_hyp LA(LC(LG(LSHIFT))) T    &kp Y                         &kp U                     &kp I                      &kp O                    &kp P
+           &ht_hrm_timeless LCMD A  &ht_hrm_timeless LALT S  &ht_hrm_timeless LSHIFT D  &ht_hrm_k_layer LCTRL 0  &lt 3 G                         &kp H                         &ht_hrm_timeless RCTRL J  &ht_hrm_timeless RSHIFT K  &ht_hrm_timeless RALT L  &ht_hrm_timeless LCMD SEMICOLON
+&kp LCTRL  &kp Z                    &kp X                    &kp C                      &kp V                    &kp B                           &kp N                         &kp M                     &kp COMMA                  &kp DOT                  &kp FSLH                         &kp APOS
+                                                             &mt LCMD ESCAPE            &lt 1 SPACE              &lt 4 TAB                       &mt LA(LC(LG(LSHIFT))) ENTER  &lt 2 BACKSPACE           &mt_shift LSHIFT 0
             >;
         };
 
