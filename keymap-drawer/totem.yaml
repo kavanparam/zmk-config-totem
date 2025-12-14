@@ -238,7 +238,7 @@ combos:
 - p: [21, 22]
   k: Gui+Z
   l: [base]
-- p: [21, 23]
+- p: [21, 10]
   k: Gui+Sft+Z
   l: [base]
 - p: [23, 24]
@@ -249,4 +249,7 @@ combos:
   l: [base]
 - p: [24, 25]
   k: LSHIFT
+  l: [base]
+- p: [22, 24]
+  k: Gui+C
   l: [base]
