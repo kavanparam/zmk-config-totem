@@ -38,7 +38,7 @@ layers:
   - {t: TAB, h: single_hand}
   - {t: ENTER, h: Alt+Ctl+Gui+LSHIFT}
   - {t: BACKSPACE, h: sym_func}
-  - {t: AltGr+BACKSPACE, h: RSHIFT}
+  - {t: Alt+BACKSPACE, h: LSHIFT, s: Alt+DEL}
   nav_num:
   - Alt+BACKSPACE
   - BACKSPACE
