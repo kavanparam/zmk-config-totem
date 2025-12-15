@@ -14,7 +14,7 @@ layers:
   - {t: A, h: LCMD}
   - {t: S, h: LALT}
   - {t: D, h: LSHIFT}
-  - '&td_f_layer'
+  - {t: F, h: LCTRL}
   - {t: G, h: z_hyper}
   - H
   - {t: J, h: RCTRL}
@@ -93,7 +93,7 @@ layers:
   - '['
   - ']'
   - ENTER
-  - {t: ▽, type: trans}
+  - Alt+Sft+-
   - F14
   - F4
   - F5
@@ -198,34 +198,34 @@ layers:
   f:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Sft+Alt+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+Sft+UP
+  - Sft+Alt+UP
+  - Sft+Gui+LEFT
+  - Sft+Gui+RIGHT
+  - Sft+Gui+DOWN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+S
+  - Sft+Alt+DOWN
   - {type: held}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+LEFT
+  - Sft+DOWN
+  - Sft+UP
   - Sft+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Alt+Sft+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Alt+LEFT
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
