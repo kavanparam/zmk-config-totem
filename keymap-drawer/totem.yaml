@@ -65,7 +65,7 @@ layers:
   - ESC
   - TAB
   - ENTER
-  - {t: ▽, type: trans}
+  - ''
   - '-'
   - '1'
   - '2'
@@ -79,7 +79,7 @@ layers:
   - BACKSPACE
   - '0'
   sym_func:
-  - ESC
+  - ''
   - '{'
   - '}'
   - \
@@ -89,10 +89,10 @@ layers:
   - F8
   - F9
   - F12
-  - TAB
+  - ''
   - '['
   - ']'
-  - ENTER
+  - ''
   - Alt+Sft+-
   - F14
   - F4
@@ -118,19 +118,19 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   z_hyper:
-  - {t: ▽, type: trans}
+  - Hyper+Q
   - BACKSPACE
-  - {t: ▽, type: trans}
+  - Alt+RIGHT
   - DEL
   - {t: ▽, type: trans}
+  - Gui+UP
+  - Alt+UP
+  - Gui+LEFT
+  - Gui+RIGHT
+  - Gui+DOWN
+  - CAPS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+UP
   - f
   - {type: held}
   - LEFT
@@ -141,10 +141,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Hyper+C
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+LEFT
+  - Hyper+N
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -255,7 +255,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - /
   - .
   - ','
@@ -284,7 +284,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
+  - ''
   - BRI DN
   - VOL DN
   - NEXT
