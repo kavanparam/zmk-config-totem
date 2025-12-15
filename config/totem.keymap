@@ -79,10 +79,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <400>;
+            tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             flavor = "balanced";
-            require-prior-idle-ms = <25>;
+            require-prior-idle-ms = <150>;
             hold-trigger-on-release;
         };
 
@@ -140,6 +140,14 @@
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp LG(LC(Q))>;
         };
+
+        alpha_layer: alpha_layer {
+            compatible = "zmk,behavior-sticky-key";
+            label = "ALPHA_LAYER";
+            bindings = <&kp>;
+            #binding-cells = <1>;
+            release-after-ms = <3000>;
+        };
     };
 
     keymap {
@@ -156,9 +164,9 @@
 
         nav_num {
             bindings = <
-               &kp LA(BACKSPACE)  &kp BACKSPACE  &kp UP    &kp DELETE  &kp LA(DELETE)    &kp STAR   &kp N7         &kp N8  &kp N9  &kp DOT
+               &kp LA(BACKSPACE)  &kp BACKSPACE  &kp UP    &kp DELETE  &kp LA(DELETE)    &kp STAR   &kp N7         &kp N8  &kp N9  &kp SLASH
                &msc SCRL_UP       &kp LEFT       &kp DOWN  &kp RIGHT   &mkp LCLK         &kp PLUS   &kp N4         &kp N5  &kp N6  &kp COLON
-&kp LG(LC(Q))  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &trans            &kp MINUS  &kp NUMBER_1   &kp N2  &kp N3  &kp SLASH  &kp AMPERSAND
+&kp LG(LC(Q))  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &trans            &kp MINUS  &kp NUMBER_1   &kp N2  &kp N3  &kp DOT    &kp AMPERSAND
                                                  &trans    &trans      &trans            &kp EQUAL  &kp BACKSPACE  &kp N0
             >;
         };
@@ -174,10 +182,10 @@
 
         z_hyper {
             bindings = <
-        &trans  &kp BACKSPACE  &trans  &kp DEL  &trans    &trans    &trans    &trans  &trans     &trans
-        &trans  &trans         &trans  &sk F    &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans  &trans  &trans         &trans  &trans   &trans    &trans    &trans    &trans  &trans     &tog 4  &trans
-                               &trans  &trans   &trans    &trans    &trans    &trans
+        &trans  &kp BACKSPACE  &trans  &kp DEL         &trans    &trans    &trans    &trans  &trans     &trans
+        &trans  &trans         &trans  &alpha_layer F  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &trans  &trans         &trans  &trans          &trans    &trans    &trans    &trans  &trans     &tog 4  &trans
+                               &trans  &trans          &trans    &trans    &trans    &trans
             >;
         };
 
@@ -215,11 +223,6 @@
         device {
             if-layers = <3 5>;
             then-layer = <6>;
-        };
-
-        reset {
-            if-layers = <0 4>;
-            then-layer = <0>;
         };
     };
 };
