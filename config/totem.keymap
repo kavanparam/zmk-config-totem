@@ -138,7 +138,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_ESC_LOCK";
             #binding-cells = <0>;
-            bindings = <&kp ESC>, <&kp LG(LS(Q))>;
+            bindings = <&kp ESC>, <&kp LG(LC(Q))>;
         };
     };
 
@@ -175,7 +175,7 @@
         z_hyper {
             bindings = <
         &trans  &kp BACKSPACE  &trans  &kp DEL  &trans    &trans    &trans    &trans  &trans     &trans
-        &trans  &trans         &trans  &kp F    &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+        &trans  &trans         &trans  &sk F    &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
 &trans  &trans  &trans         &trans  &trans   &trans    &trans    &trans    &trans  &trans     &tog 4  &trans
                                &trans  &trans   &trans    &trans    &trans    &trans
             >;
@@ -215,6 +215,11 @@
         device {
             if-layers = <3 5>;
             then-layer = <6>;
+        };
+
+        reset {
+            if-layers = <0 4>;
+            then-layer = <0>;
         };
     };
 };
