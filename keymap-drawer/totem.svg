@@ -342,7 +342,7 @@ path.combo {
 <path d="M198,115 l-40,2" class="combo"/>
 <rect rx="6" ry="6" x="184" y="102" width="28" height="26" class="combo"/>
 <text x="198" y="115" class="combo tap">
-<tspan x="198" dy="-0.6em">PLAY</tspan><tspan x="198" dy="1.2em">PAUSE</tspan>
+<tspan x="198" dy="-0.6em">Sft+Gui</tspan><tspan x="198" dy="1.2em">+S</tspan>
 </text>
 </g>
 <g class="combo combopos-8">
@@ -350,7 +350,7 @@ path.combo {
 <path d="M200,143 l-40,22" class="combo"/>
 <rect rx="6" ry="6" x="186" y="130" width="28" height="26" class="combo"/>
 <text x="200" y="143" class="combo tap">
-<tspan x="200" dy="-0.6em">PLAY</tspan><tspan x="200" dy="1.2em">PAUSE</tspan>
+<tspan x="200" dy="-0.6em">Alt+Sft</tspan><tspan x="200" dy="1.2em">+-</tspan>
 </text>
 </g>
 </g>

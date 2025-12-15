@@ -335,8 +335,8 @@ combos:
   k: PLAY PAUSE
   l: [base]
 - p: [13, 11]
-  k: PLAY PAUSE
+  k: Sft+Gui+S
   l: [base]
 - p: [13, 22]
-  k: PLAY PAUSE
+  k: Alt+Sft+-
   l: [base]
