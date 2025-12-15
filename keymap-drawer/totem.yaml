@@ -131,7 +131,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - F
+  - {t: F, h: sticky}
   - {type: held}
   - LEFT
   - DOWN
