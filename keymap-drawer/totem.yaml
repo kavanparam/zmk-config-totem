@@ -340,3 +340,6 @@ combos:
 - p: [13, 22]
   k: Alt+Sft+-
   l: [base]
+- p: [16, 17]
+  k: ESC
+  l: [base]
