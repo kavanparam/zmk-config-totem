@@ -14,7 +14,7 @@ layers:
   - {t: A, h: LCMD}
   - {t: S, h: LALT}
   - {t: D, h: LSHIFT}
-  - {t: F, h: LCTRL}
+  - '&td_f_layer'
   - {t: G, h: z_hyper}
   - H
   - {t: J, h: RCTRL}
@@ -131,7 +131,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: F, h: sticky}
+  - f
   - {type: held}
   - LEFT
   - DOWN
@@ -188,6 +188,45 @@ layers:
   - '2'
   - '3'
   - {t: z_hyper_num, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  f:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -290,7 +329,7 @@ combos:
   k: LSHIFT
   l: [base]
 - p: [22, 24]
-  k: Gui+C
+  k: Gui+X
   l: [base]
 - p: [4, 3]
   k: PLAY PAUSE
