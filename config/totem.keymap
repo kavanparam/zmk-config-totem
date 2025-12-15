@@ -62,13 +62,13 @@
         };
 
         f_strikestrough {
-            bindings = <&kp C_PLAY_PAUSE>;
+            bindings = <&kp LS(LG(S))>;
             key-positions = <13 11>;
             layers = <0>;
         };
 
         f_emdash {
-            bindings = <&kp C_PLAY_PAUSE>;
+            bindings = <&kp LA(LS(MINUS))>;
             key-positions = <13 22>;
             layers = <0>;
         };
