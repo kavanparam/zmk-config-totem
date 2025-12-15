@@ -163,9 +163,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
+  - Hyper+7
+  - Hyper+8
+  - Hyper+9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,9 +173,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
+  - Hyper+4
+  - Hyper+5
+  - Hyper+6
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -184,9 +184,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
+  - Hyper+1
+  - Hyper+2
+  - Hyper+3
   - {t: z_hyper_num, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -332,5 +332,11 @@ combos:
   k: Gui+X
   l: [base]
 - p: [4, 3]
+  k: PLAY PAUSE
+  l: [base]
+- p: [13, 11]
+  k: PLAY PAUSE
+  l: [base]
+- p: [13, 22]
   k: PLAY PAUSE
   l: [base]
