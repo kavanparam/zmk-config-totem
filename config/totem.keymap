@@ -72,6 +72,12 @@
             key-positions = <13 22>;
             layers = <0>;
         };
+
+        escape {
+            bindings = <&kp ESC>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
     };
 
     behaviors {
