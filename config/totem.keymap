@@ -78,6 +78,12 @@
             key-positions = <6 7>;
             layers = <0>;
         };
+
+        raycast {
+            bindings = <&kp LS(LA(LC(LG(SPACE))))>;
+            key-positions = <14 13>;
+            layers = <0>;
+        };
     };
 
     behaviors {
@@ -200,10 +206,10 @@
 
         z_hyper {
             bindings = <
-        &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE  &kp LA(RIGHT)          &kp DEL  &trans          &kp LG(UP)             &kp LA(UP)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LG(DOWN)
-        &kp CAPS               &trans         &kp LA(UP)             &mo 5    &trans          &kp LEFT               &kp DOWN    &kp UP        &kp RIGHT      &trans
-&trans  &trans                 &trans         &kp LS(LA(LC(LG(C))))  &trans   &kp LA(LEFT)    &kp LS(LA(LC(LG(N))))  &trans      &trans        &trans         &tog 4        &trans
-                                              &trans                 &trans   &trans          &trans                 &trans      &trans
+        &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE  &kp LA(RIGHT)          &kp DEL                    &trans          &kp LG(UP)             &kp LA(UP)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LG(DOWN)
+        &kp CAPS               &trans         &kp LA(UP)             &mo 5                      &trans          &kp LEFT               &kp DOWN    &kp UP        &kp RIGHT      &trans
+&trans  &trans                 &trans         &kp LS(LA(LC(LG(C))))  &trans                     &kp LA(LEFT)    &kp LS(LA(LC(LG(N))))  &trans      &trans        &trans         &tog 4        &trans
+                                              &trans                 &kp LS(LA(LC(LG(SPACE))))  &trans          &trans                 &trans      &trans
             >;
         };
 
