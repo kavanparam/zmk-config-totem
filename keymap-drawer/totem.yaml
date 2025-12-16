@@ -83,7 +83,7 @@ layers:
   - '{'
   - '}'
   - \
-  - LSHIFT
+  - {t: ▽, type: trans}
   - F15
   - F7
   - F8
@@ -92,7 +92,7 @@ layers:
   - ''
   - '['
   - ']'
-  - ''
+  - '%'
   - Alt+Sft+-
   - F14
   - F4
