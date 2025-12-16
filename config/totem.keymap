@@ -173,10 +173,10 @@
 
         base {
             bindings = <
-              &kp Q                    &kp W                    &kp E                      &kp R        &mt_hyp LA(LC(LG(LSHIFT))) T    &kp Y        &kp U                     &kp I                      &kp O                    &kp P
-              &ht_hrm_timeless LCMD A  &ht_hrm_timeless LALT S  &ht_hrm_timeless LSHIFT D  &mt LCTRL F  &lt 7 G                         &kp H        &ht_hrm_timeless RCTRL J  &ht_hrm_timeless RSHIFT K  &ht_hrm_timeless RALT L  &ht_hrm_timeless LCMD SEMICOLON
-&td_esc_lock  &kp Z                    &kp X                    &kp C                      &kp V        &kp B                           &kp N        &kp M                     &kp COMMA                  &kp DOT                  &kp FSLH                         &kp APOS
-                                                                &mt LCMD ESCAPE            &lt 1 SPACE  &lt 6 TAB                       &lt 3 ENTER  &lt 2 BACKSPACE           &ht_shift LSHIFT 0
+              &kp Q       &kp W       &kp E            &kp R        &mt_hyp LA(LC(LG(LSHIFT))) T    &kp Y        &kp U                     &kp I                      &kp O                    &kp P
+              &mt LCMD A  &mt LALT S  &mt LSHIFT D     &mt LCTRL F  &lt 7 G                         &kp H        &ht_hrm_timeless RCTRL J  &ht_hrm_timeless RSHIFT K  &ht_hrm_timeless RALT L  &ht_hrm_timeless LCMD SEMICOLON
+&td_esc_lock  &kp Z       &kp X       &kp C            &kp V        &kp B                           &kp N        &kp M                     &kp COMMA                  &kp DOT                  &kp FSLH                         &kp APOS
+                                      &mt LCMD ESCAPE  &lt 1 SPACE  &lt 6 TAB                       &lt 3 ENTER  &lt 2 BACKSPACE           &ht_shift LSHIFT 0
             >;
         };
 
