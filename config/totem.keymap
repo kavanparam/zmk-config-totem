@@ -182,10 +182,10 @@
 
         nav_num {
             bindings = <
-               &kp LA(BACKSPACE)  &kp BACKSPACE  &kp UP    &kp DELETE  &kp LA(DELETE)    &kp STAR   &kp N7         &kp N8  &kp N9  &kp SLASH
-               &msc SCRL_UP       &kp LEFT       &kp DOWN  &kp RIGHT   &mkp LCLK         &kp PLUS   &kp N4         &kp N5  &kp N6  &kp COLON
-&kp LG(LC(Q))  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &none             &kp MINUS  &kp NUMBER_1   &kp N2  &kp N3  &kp DOT    &kp AMPERSAND
-                                                 &trans    &trans      &trans            &kp EQUAL  &kp BACKSPACE  &kp N0
+           &kp LA(BACKSPACE)  &kp BACKSPACE  &kp UP    &kp DELETE  &kp LA(DELETE)    &kp STAR   &kp N7         &kp N8  &kp N9  &kp SLASH
+           &msc SCRL_UP       &kp LEFT       &kp DOWN  &kp RIGHT   &mkp LCLK         &kp PLUS   &kp N4         &kp N5  &kp N6  &kp COLON
+&kp GRAVE  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &none             &kp MINUS  &kp NUMBER_1   &kp N2  &kp N3  &kp DOT    &kp AMPERSAND
+                                             &trans    &trans      &trans            &kp EQUAL  &kp BACKSPACE  &kp N0
             >;
         };
 
