@@ -151,7 +151,7 @@ layers:
   - {t: z_hyper_num, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Hyper+SPACE
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -381,4 +381,7 @@ combos:
   l: [base]
 - p: [6, 7]
   k: ESC
+  l: [base]
+- p: [14, 13]
+  k: Hyper+SPACE
   l: [base]
