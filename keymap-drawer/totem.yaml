@@ -366,7 +366,7 @@ combos:
   l: [base]
 - p: [24, 25]
   k: LSHIFT
-  l: [base]
+  l: [base, nav_num]
 - p: [22, 24]
   k: Gui+X
   l: [base]
