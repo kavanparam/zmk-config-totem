@@ -379,6 +379,6 @@ combos:
 - p: [13, 22]
   k: Alt+Sft+-
   l: [base]
-- p: [16, 17]
+- p: [6, 7]
   k: ESC
   l: [base]
