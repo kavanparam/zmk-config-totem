@@ -75,7 +75,7 @@
 
         escape {
             bindings = <&kp ESC>;
-            key-positions = <16 17>;
+            key-positions = <6 7>;
             layers = <0>;
         };
     };
