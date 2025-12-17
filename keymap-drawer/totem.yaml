@@ -129,7 +129,7 @@ layers:
   - Gui+RIGHT
   - Gui+DOWN
   - CAPS
-  - {t: ▽, type: trans}
+  - Hyper+S
   - Alt+UP
   - f
   - {t: ▽, type: trans}
