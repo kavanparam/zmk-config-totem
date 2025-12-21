@@ -218,7 +218,7 @@
         &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LA(LC(LG(N7))))  &kp LS(LA(LC(LG(N8))))  &kp LS(LA(LC(LG(N9))))  &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LA(LC(LG(N4))))  &kp LS(LA(LC(LG(N5))))  &kp LS(LA(LC(LG(N6))))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LA(LC(LG(N1))))  &kp LS(LA(LC(LG(N2))))  &kp LS(LA(LC(LG(N3))))  &tog 4  &trans
-                        &trans  &trans  &trans    &trans  &trans                  &trans
+                        &to 0   &trans  &trans    &trans  &trans                  &trans
             >;
         };
 
@@ -251,10 +251,10 @@
 
         lightroom {
             bindings = <
-        &trans  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans     &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                           &to 0          &trans  &trans    &trans  &trans  &trans
+       &none  &kp LG(Z)  &kp LG(LS(Z))  &none  &none    &none  &none  &none  &none  &none
+       &none  &none      &none          &none  &none    &none  &none  &none  &none  &none
+&none  &none  &none      &none          &none  &none    &none  &none  &none  &none  &none  &none
+                         &to 0          &none  &none    &none  &none  &none
             >;
         };
 
