@@ -234,7 +234,7 @@
         s_layer {
             bindings = <
         &trans  &trans  &trans  &trans                 &trans                   &trans                &trans       &trans           &trans                 &trans
-        &trans  &trans  &trans  &kp LS(LA(LG(LC(F))))  &kp LS(LC(LA(LG(G))))    &kp LC(LEFT_BRACKET)  &kp LC(TAB)  &kp LC(LS(TAB))  &kp LC(RIGHT_BRACKET)  &kp LG(W)
+        &trans  &trans  &trans  &kp LS(LA(LG(LC(F))))  &kp LS(LC(LA(LG(G))))    &kp LG(LEFT_BRACKET)  &kp LC(TAB)  &kp LC(LS(TAB))  &kp LG(RIGHT_BRACKET)  &kp LG(W)
 &trans  &trans  &trans  &trans  &trans                 &trans                   &trans                &trans       &trans           &trans                 &trans     &trans
                         &trans  &trans                 &trans                   &trans                &trans       &trans
             >;
