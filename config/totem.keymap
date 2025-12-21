@@ -126,10 +126,10 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        ht_shift: ht_shift {
+        ht_opt_del: ht_opt_del {
             compatible = "zmk,behavior-hold-tap";
-            label = "HT_SHIFT";
-            bindings = <&kp>, <&mm_opt_del>;
+            label = "HT_OPT_DEL";
+            bindings = <&mo>, <&mm_opt_del>;
 
             #binding-cells = <2>;
             flavor = "hold-preferred";
@@ -179,10 +179,10 @@
 
         base {
             bindings = <
-              &kp Q            &kp W            &kp E              &kp R             &kp T        &kp Y        &kp U             &kp I               &kp O            &kp P
-              &ht_thrm LCMD A  &ht_thrm LALT S  &ht_thrm LSHIFT D  &ht_thrm LCTRL F  &lt 9 G      &kp H        &ht_thrm RCTRL J  &ht_thrm RSHIFT K   &ht_thrm RALT L  &ht_thrm LCMD SEMICOLON
-&td_esc_lock  &kp Z            &kp X            &kp C              &kp V             &kp B        &kp N        &kp M             &kp COMMA           &kp DOT          &kp FSLH                 &kp APOS
-                                                &lt 3 ESCAPE       &lt 1 SPACE       &lt 7 TAB    &lt 3 ENTER  &lt 2 BACKSPACE   &ht_shift LSHIFT 0
+              &kp Q            &kp W            &kp E              &kp R             &kp T        &kp Y                 &kp U             &kp I              &kp O            &kp P
+              &ht_thrm LCMD A  &ht_thrm LALT S  &ht_thrm LSHIFT D  &ht_thrm LCTRL F  &lt 9 G      &kp H                 &ht_thrm RCTRL J  &ht_thrm RSHIFT K  &ht_thrm RALT L  &ht_thrm LCMD SEMICOLON
+&td_esc_lock  &kp Z            &kp X            &kp C              &kp V             &kp B        &kp N                 &kp M             &kp COMMA          &kp DOT          &kp FSLH                 &kp APOS
+                                                &lt 3 ESCAPE       &lt 1 SPACE       &lt 7 TAB    &mt LEFT_SHIFT ENTER  &lt 2 BACKSPACE   &ht_opt_del 3 0
             >;
         };
 
@@ -204,7 +204,7 @@
             >;
         };
 
-        z_hyper {
+        z_hyp {
             bindings = <
         &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE            &kp LA(RIGHT)          &kp DEL  &trans          &kp LG(UP)             &kp LA(UP)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LG(DOWN)
         &kp CAPS               &lt 6 LS(LA(LC(LG(S))))  &kp LA(UP)             &mo 5    &trans          &kp LEFT               &kp DOWN    &kp UP        &kp RIGHT      &kp ENTER
@@ -213,7 +213,7 @@
             >;
         };
 
-        z_hyper_num {
+        z_hyp_num {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LA(LC(LG(N7))))  &kp LS(LA(LC(LG(N8))))  &kp LS(LA(LC(LG(N9))))  &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LA(LC(LG(N4))))  &kp LS(LA(LC(LG(N5))))  &kp LS(LA(LC(LG(N6))))  &trans
