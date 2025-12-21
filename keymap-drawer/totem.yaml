@@ -33,12 +33,12 @@ layers:
   - .
   - /
   - ''''
-  - {t: ESCAPE, h: z_hyper}
+  - {t: ESCAPE, h: z_hyp}
   - {t: SPACE, h: nav_num}
   - {t: TAB, h: l_singlehand}
-  - {t: ENTER, h: z_hyper}
+  - {t: ENTER, h: LEFT SHIFT}
   - {t: BACKSPACE, h: sym_func}
-  - {t: Alt+BACKSPACE, h: LSHIFT, s: Alt+DEL}
+  - {t: Alt+BACKSPACE, h: z_hyp, s: Alt+DEL}
   nav_num:
   - Alt+BACKSPACE
   - BACKSPACE
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  z_hyper:
+  z_hyp:
   - Hyper+Q
   - BACKSPACE
   - Alt+RIGHT
@@ -148,7 +148,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: z_hyper_num, h: toggle}
+  - {t: z_hyp_num, h: toggle}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -156,7 +156,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  z_hyper_num:
+  z_hyp_num:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -187,7 +187,7 @@ layers:
   - Hyper+1
   - Hyper+2
   - Hyper+3
-  - {t: z_hyper_num, h: toggle}
+  - {t: z_hyp_num, h: toggle}
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
