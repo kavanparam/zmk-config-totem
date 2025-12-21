@@ -180,9 +180,9 @@
         base {
             bindings = <
               &kp Q            &kp W            &kp E              &kp R             &kp T        &kp Y        &kp U             &kp I               &kp O            &kp P
-              &ht_thrm LCMD A  &ht_thrm LALT S  &ht_thrm LSHIFT D  &ht_thrm LCTRL F  &lt 8 G      &kp H        &ht_thrm RCTRL J  &ht_thrm RSHIFT K   &ht_thrm RALT L  &ht_thrm LCMD SEMICOLON
+              &ht_thrm LCMD A  &ht_thrm LALT S  &ht_thrm LSHIFT D  &ht_thrm LCTRL F  &lt 9 G      &kp H        &ht_thrm RCTRL J  &ht_thrm RSHIFT K   &ht_thrm RALT L  &ht_thrm LCMD SEMICOLON
 &td_esc_lock  &kp Z            &kp X            &kp C              &kp V             &kp B        &kp N        &kp M             &kp COMMA           &kp DOT          &kp FSLH                 &kp APOS
-                                                &lt 3 ESCAPE       &lt 1 SPACE       &lt 6 TAB    &lt 3 ENTER  &lt 2 BACKSPACE   &ht_shift LSHIFT 0
+                                                &lt 3 ESCAPE       &lt 1 SPACE       &lt 7 TAB    &lt 3 ENTER  &lt 2 BACKSPACE   &ht_shift LSHIFT 0
             >;
         };
 
@@ -206,10 +206,10 @@
 
         z_hyper {
             bindings = <
-        &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE          &kp LA(RIGHT)          &kp DEL  &trans          &kp LG(UP)             &kp LA(UP)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LG(DOWN)
-        &kp CAPS               &kp LS(LA(LG(LC(S))))  &kp LA(UP)             &mo 5    &trans          &kp LEFT               &kp DOWN    &kp UP        &kp RIGHT      &kp ENTER
-&trans  &trans                 &trans                 &kp LS(LA(LC(LG(C))))  &trans   &kp LA(LEFT)    &kp LS(LA(LC(LG(N))))  &trans      &trans        &trans         &tog 4        &trans
-                                                      &trans                 &trans   &trans          &trans                 &trans      &trans
+        &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE            &kp LA(RIGHT)          &kp DEL  &trans          &kp LG(UP)             &kp LA(UP)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LG(DOWN)
+        &kp CAPS               &lt 6 LS(LA(LC(LG(S))))  &kp LA(UP)             &mo 5    &trans          &kp LEFT               &kp DOWN    &kp UP        &kp RIGHT      &kp ENTER
+&trans  &trans                 &trans                   &kp LS(LA(LC(LG(C))))  &trans   &kp LA(LEFT)    &kp LS(LA(LC(LG(N))))  &trans      &trans        &trans         &tog 4        &trans
+                                                        &trans                 &trans   &trans          &trans                 &trans      &trans
             >;
         };
 
@@ -231,6 +231,15 @@
             >;
         };
 
+        s_layer {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
         l_singlehand {
             bindings = <
                &kp P          &kp O       &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans
@@ -245,14 +254,14 @@
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+                        &to 0   &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         macro {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &tog 8  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
@@ -272,8 +281,8 @@
         compatible = "zmk,conditional-layers";
 
         device {
-            if-layers = <8 1>;
-            then-layer = <9>;
+            if-layers = <9 1>;
+            then-layer = <10>;
         };
 
         z_hyper_num {
