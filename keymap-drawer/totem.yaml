@@ -250,10 +250,10 @@ layers:
   - {t: ▽, type: trans}
   - Hyper+F
   - Hyper+G
-  - Ctl+[
+  - Gui+[
   - Ctl+TAB
   - Ctl+Sft+TAB
-  - Ctl+]
+  - Gui+]
   - Gui+W
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
