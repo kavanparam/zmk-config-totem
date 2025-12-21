@@ -5,7 +5,7 @@ layers:
   - W
   - E
   - R
-  - {t: T, h: z_hyper}
+  - T
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - .
   - /
   - ''''
-  - {t: ESCAPE, h: LCMD}
+  - {t: ESCAPE, h: z_hyper}
   - {t: SPACE, h: nav_num}
   - {t: TAB, h: l_singlehand}
   - {t: ENTER, h: z_hyper}
@@ -71,7 +71,7 @@ layers:
   - '2'
   - '3'
   - .
-  - '&'
+  - {t: nav_num, h: toggle}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -93,7 +93,7 @@ layers:
   - '['
   - ']'
   - '%'
-  - Alt+Sft+-
+  - '&'
   - F14
   - F4
   - F5
@@ -122,7 +122,7 @@ layers:
   - BACKSPACE
   - Alt+RIGHT
   - DEL
-  - {type: held}
+  - {t: ▽, type: trans}
   - Gui+UP
   - Alt+UP
   - Gui+LEFT
@@ -150,7 +150,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: z_hyper_num, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -161,7 +161,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Hyper+7
   - Hyper+8
@@ -189,7 +189,7 @@ layers:
   - Hyper+3
   - {t: z_hyper_num, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -200,7 +200,7 @@ layers:
   - {t: ▽, type: trans}
   - Sft+Alt+RIGHT
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - Gui+Sft+UP
   - Sft+Alt+UP
   - Sft+Gui+LEFT
@@ -228,7 +228,7 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
