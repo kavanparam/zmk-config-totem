@@ -233,10 +233,10 @@
 
         s_layer {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans                 &trans                   &trans                &trans       &trans           &trans                 &trans
+        &trans  &trans  &trans  &kp LS(LA(LG(LC(F))))  &kp LS(LC(LA(LG(G))))    &kp LC(LEFT_BRACKET)  &kp LC(TAB)  &kp LC(LS(TAB))  &kp LC(RIGHT_BRACKET)  &kp LG(W)
+&trans  &trans  &trans  &trans  &trans                 &trans                   &trans                &trans       &trans           &trans                 &trans     &trans
+                        &trans  &trans                 &trans                   &trans                &trans       &trans
             >;
         };
 
@@ -251,10 +251,10 @@
 
         lightroom {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &to 0   &trans  &trans    &trans  &trans  &trans
+        &trans  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans     &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans         &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                           &to 0          &trans  &trans    &trans  &trans  &trans
             >;
         };
 
