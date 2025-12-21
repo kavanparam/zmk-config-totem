@@ -179,10 +179,10 @@
 
         base {
             bindings = <
-              &kp Q            &kp W            &kp E              &kp R             &lt 3 T      &kp Y        &kp U             &kp I               &kp O            &kp P
+              &kp Q            &kp W            &kp E              &kp R             &kp T        &kp Y        &kp U             &kp I               &kp O            &kp P
               &ht_thrm LCMD A  &ht_thrm LALT S  &ht_thrm LSHIFT D  &ht_thrm LCTRL F  &lt 8 G      &kp H        &ht_thrm RCTRL J  &ht_thrm RSHIFT K   &ht_thrm RALT L  &ht_thrm LCMD SEMICOLON
 &td_esc_lock  &kp Z            &kp X            &kp C              &kp V             &kp B        &kp N        &kp M             &kp COMMA           &kp DOT          &kp FSLH                 &kp APOS
-                                                &mt LCMD ESCAPE    &lt 1 SPACE       &lt 6 TAB    &lt 3 ENTER  &lt 2 BACKSPACE   &ht_shift LSHIFT 0
+                                                &lt 3 ESCAPE       &lt 1 SPACE       &lt 6 TAB    &lt 3 ENTER  &lt 2 BACKSPACE   &ht_shift LSHIFT 0
             >;
         };
 
@@ -190,17 +190,17 @@
             bindings = <
            &kp LA(BACKSPACE)  &kp BACKSPACE  &kp UP    &kp DELETE  &kp LA(DELETE)    &kp STAR   &kp N7         &kp N8  &kp N9  &kp SLASH
            &msc SCRL_UP       &kp LEFT       &kp DOWN  &kp RIGHT   &mkp LCLK         &kp PLUS   &kp N4         &kp N5  &kp N6  &kp COLON
-&kp GRAVE  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &kp LS(TAB)       &kp MINUS  &kp NUMBER_1   &kp N2  &kp N3  &kp DOT    &kp AMPERSAND
+&kp GRAVE  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &kp LS(TAB)       &kp MINUS  &kp NUMBER_1   &kp N2  &kp N3  &kp DOT    &tog 1
                                              &trans    &trans      &trans            &kp EQUAL  &kp BACKSPACE  &kp N0
             >;
         };
 
         sym_func {
             bindings = <
-           &none          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH     &kp CARET            &kp F15  &kp F7  &kp F8  &kp F9  &kp F12
-           &none          &kp LBKT              &kp RBKT               &kp PERCENT       &kp LA(LS(MINUS))    &kp F14  &kp F4  &kp F5  &kp F6  &kp F11
-&kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE       &kp F13  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                                &trans                 &kp SPACE         &trans               &trans   &trans  &trans
+           &none          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH     &kp CARET         &kp F15  &kp F7  &kp F8  &kp F9  &kp F12
+           &none          &kp LBKT              &kp RBKT               &kp PERCENT       &kp AMPS          &kp F14  &kp F4  &kp F5  &kp F6  &kp F11
+&kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F13  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                                &trans                 &kp SPACE         &trans            &trans   &trans  &trans
             >;
         };
 
