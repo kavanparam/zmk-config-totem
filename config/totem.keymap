@@ -179,10 +179,10 @@
 
         base {
             bindings = <
-              &kp Q            &kp W            &kp E              &kp R             &mt_hyp LA(LC(LG(LSHIFT))) T    &kp Y        &kp U             &kp I               &kp O            &kp P
-              &ht_thrm LCMD A  &ht_thrm LALT S  &ht_thrm LSHIFT D  &ht_thrm LCTRL F  &lt 7 G                         &kp H        &ht_thrm RCTRL J  &ht_thrm RSHIFT K   &ht_thrm RALT L  &ht_thrm LCMD SEMICOLON
-&td_esc_lock  &kp Z            &kp X            &kp C              &kp V             &kp B                           &kp N        &kp M             &kp COMMA           &kp DOT          &kp FSLH                 &kp APOS
-                                                &mt LCMD ESCAPE    &lt 1 SPACE       &lt 6 TAB                       &lt 3 ENTER  &lt 2 BACKSPACE   &ht_shift LSHIFT 0
+              &kp Q            &kp W            &kp E              &kp R             &lt 3 T      &kp Y        &kp U             &kp I               &kp O            &kp P
+              &ht_thrm LCMD A  &ht_thrm LALT S  &ht_thrm LSHIFT D  &ht_thrm LCTRL F  &lt 7 G      &kp H        &ht_thrm RCTRL J  &ht_thrm RSHIFT K   &ht_thrm RALT L  &ht_thrm LCMD SEMICOLON
+&td_esc_lock  &kp Z            &kp X            &kp C              &kp V             &kp B        &kp N        &kp M             &kp COMMA           &kp DOT          &kp FSLH                 &kp APOS
+                                                &mt LCMD ESCAPE    &lt 1 SPACE       &lt 6 TAB    &lt 3 ENTER  &lt 2 BACKSPACE   &ht_shift LSHIFT 0
             >;
         };
 
@@ -190,7 +190,7 @@
             bindings = <
            &kp LA(BACKSPACE)  &kp BACKSPACE  &kp UP    &kp DELETE  &kp LA(DELETE)    &kp STAR   &kp N7         &kp N8  &kp N9  &kp SLASH
            &msc SCRL_UP       &kp LEFT       &kp DOWN  &kp RIGHT   &mkp LCLK         &kp PLUS   &kp N4         &kp N5  &kp N6  &kp COLON
-&kp GRAVE  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &none             &kp MINUS  &kp NUMBER_1   &kp N2  &kp N3  &kp DOT    &kp AMPERSAND
+&kp GRAVE  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &kp LS(TAB)       &kp MINUS  &kp NUMBER_1   &kp N2  &kp N3  &kp DOT    &kp AMPERSAND
                                              &trans    &trans      &trans            &kp EQUAL  &kp BACKSPACE  &kp N0
             >;
         };
@@ -206,10 +206,10 @@
 
         z_hyper {
             bindings = <
-        &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE          &kp LA(RIGHT)          &kp DEL                    &trans          &kp LG(UP)             &kp LA(UP)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LG(DOWN)
-        &kp CAPS               &kp LS(LA(LG(LC(S))))  &kp LA(UP)             &mo 5                      &trans          &kp LEFT               &kp DOWN    &kp UP        &kp RIGHT      &trans
-&trans  &trans                 &trans                 &kp LS(LA(LC(LG(C))))  &trans                     &kp LA(LEFT)    &kp LS(LA(LC(LG(N))))  &trans      &trans        &trans         &tog 4        &trans
-                                                      &trans                 &kp LS(LA(LC(LG(SPACE))))  &trans          &trans                 &trans      &trans
+        &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE          &kp LA(RIGHT)          &kp DEL  &trans          &kp LG(UP)             &kp LA(UP)  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LG(DOWN)
+        &kp CAPS               &kp LS(LA(LG(LC(S))))  &kp LA(UP)             &mo 5    &trans          &kp LEFT               &kp DOWN    &kp UP        &kp RIGHT      &kp ENTER
+&trans  &trans                 &trans                 &kp LS(LA(LC(LG(C))))  &trans   &kp LA(LEFT)    &kp LS(LA(LC(LG(N))))  &trans      &trans        &trans         &tog 4        &trans
+                                                      &trans                 &trans   &trans          &trans                 &trans      &trans
             >;
         };
 
@@ -224,14 +224,14 @@
 
         f_layer {
             bindings = <
-        &trans  &trans             &kp LS(LA(RIGHT))  &trans  &trans              &kp LG(LS(UP))  &kp LS(LA(UP))  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &kp LS(LG(DOWN))
-        &trans  &kp LS(LG(S))      &kp LS(LA(DOWN))   &trans  &trans              &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(UP)        &kp LS(RIGHT)      &trans
-&trans  &trans  &kp LA(LS(MINUS))  &trans             &trans  &kp LS(LA(LEFT))    &kp LEFT        &kp DOWN        &kp UP            &kp RIGHT          &trans            &trans
-                                   &trans             &trans  &trans              &trans          &trans          &trans
+        &trans  &trans         &kp LS(LA(RIGHT))  &trans  &trans              &kp LG(LS(UP))  &kp LS(LA(UP))  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &kp LS(LG(DOWN))
+        &trans  &kp LS(LG(S))  &kp LS(LA(DOWN))   &trans  &trans              &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(UP)        &kp LS(RIGHT)      &trans
+&trans  &trans  &kp LG(X)      &kp LG(C)          &trans  &kp LS(LA(LEFT))    &kp LEFT        &kp DOWN        &kp UP            &kp RIGHT          &trans            &trans
+                               &trans             &trans  &trans              &trans          &trans          &trans
             >;
         };
 
-        single_hand {
+        l_singlehand {
             bindings = <
                &kp P          &kp O       &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans
                &kp SEMICOLON  &kp L       &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans
