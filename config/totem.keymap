@@ -251,7 +251,7 @@
                &kp P          &kp O       &kp I      &kp U   &kp Y     &trans  &trans  &trans  &trans  &trans
                &kp SEMICOLON  &kp L       &kp K      &kp J   &kp H     &trans  &trans  &trans  &trans  &trans
 &kp BACKSPACE  &kp SLASH      &kp PERIOD  &kp COMMA  &kp M   &kp N     &trans  &trans  &trans  &trans  &trans  &trans
-                                          &trans     &trans  &trans    &trans  &trans  &trans
+                                          &to 0      &trans  &trans    &trans  &trans  &trans
             >;
         };
 
@@ -266,10 +266,10 @@
 
         macro {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &to 8   &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &tog 8  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+                        &trans  &trans  &to 7     &trans  &trans  &trans
             >;
         };
 
