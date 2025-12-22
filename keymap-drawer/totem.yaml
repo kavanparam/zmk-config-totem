@@ -129,9 +129,9 @@ layers:
   - Gui+RIGHT
   - Gui+DOWN
   - CAPS
-  - {t: Hyper+S, h: s}
+  - {t: Hyper+S, h: system}
   - Alt+UP
-  - f
+  - format
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -195,7 +195,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  f:
+  format:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Alt+RIGHT
@@ -234,7 +234,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  s:
+  system:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

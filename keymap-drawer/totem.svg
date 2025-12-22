@@ -749,8 +749,8 @@ path.combo {
 <g transform="translate(140, 118) rotate(-4.0)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Hyper+S</text>
-<a href="#s">
-<text x="0" y="24" class="key hold layer-activator">s</text>
+<a href="#system">
+<text x="0" y="24" class="key hold layer-activator">system</text>
 </a></g>
 <g transform="translate(200, 84)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -758,8 +758,8 @@ path.combo {
 </g>
 <g transform="translate(256, 112)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#f">
-<text x="0" y="0" class="key tap layer-activator">f</text>
+<a href="#format">
+<text x="0" y="0" class="key tap layer-activator">format</text>
 </a></g>
 <g transform="translate(312, 121)" class="key trans keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1022,8 +1022,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1824)" class="layer-f">
-<text x="0" y="28" class="label" id="f">f:</text>
+<g transform="translate(30, 1824)" class="layer-format">
+<text x="0" y="28" class="label" id="format">format:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(73, 113) rotate(-10.0)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1201,8 +1201,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 2188)" class="layer-s">
-<text x="0" y="28" class="label" id="s">s:</text>
+<g transform="translate(30, 2188)" class="layer-system">
+<text x="0" y="28" class="label" id="system">system:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(73, 113) rotate(-10.0)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
