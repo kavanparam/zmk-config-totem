@@ -251,10 +251,10 @@
 
         lightroom {
             bindings = <
-       &none  &kp LG(Z)  &kp LG(LS(Z))  &kp LG(LA(V))  &none    &none  &none  &none  &none  &none
-       &none  &kp LEFT   &none          &kp RIGHT      &none    &none  &none  &none  &none  &none
-&none  &none  &none      &none          &none          &none    &none  &none  &none  &none  &none  &none
-                         &to 0          &none          &none    &none  &none  &none
+       &kp LG(LS(C))  &kp LG(Z)  &kp LG(LS(Z))  &kp LG(LA(V))  &none        &none  &none  &none  &none  &none
+       &none          &kp LEFT   &none          &kp RIGHT      &none        &none  &none  &none  &none  &none
+&none  &none          &none      &none          &none          &none        &none  &none  &none  &none  &none  &none
+                                 &to 0          &none          &mkp LCLK    &none  &none  &none
             >;
         };
 
