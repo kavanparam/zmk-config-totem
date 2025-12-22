@@ -463,3 +463,6 @@ combos:
 - p: [2, 3]
   k: Hyper+SPACE
   l: [base]
+- p: [27, 28]
+  k: ENTER
+  l: [base]
