@@ -460,6 +460,6 @@ combos:
 - p: [6, 7]
   k: ESC
   l: [base]
-- p: [14, 13]
+- p: [13, 12]
   k: Hyper+SPACE
   l: [base]
