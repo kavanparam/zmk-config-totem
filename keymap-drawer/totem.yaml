@@ -313,7 +313,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   lightroom:
-  - ''
+  - Gui+Sft+C
   - Gui+Z
   - Gui+Sft+Z
   - Gui+Alt+V
@@ -347,7 +347,7 @@ layers:
   - ''
   - {t: base, h: toggle}
   - ''
-  - ''
+  - '&mkp LCLK'
   - ''
   - ''
   - ''
