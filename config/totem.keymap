@@ -83,6 +83,8 @@
             bindings = <&kp LS(LA(LC(LG(SPACE))))>;
             key-positions = <2 3>;
             layers = <0>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
         };
 
         enter {
