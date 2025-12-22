@@ -81,7 +81,7 @@
 
         raycast {
             bindings = <&kp LS(LA(LC(LG(SPACE))))>;
-            key-positions = <14 13>;
+            key-positions = <13 12>;
             layers = <0>;
         };
     };
