@@ -829,9 +829,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Alt+DEL</text>
 </g>
-<g transform="translate(753, 174) rotate(4.0)" class="key trans keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(753, 174) rotate(4.0)" class="key keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">ESC</text>
 </g>
 <g transform="translate(805, 223) rotate(10.0)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -839,12 +839,17 @@ path.combo {
 <text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 78%">z_hyp_num</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(864, 209) rotate(10.0)" class="key trans keypos-31">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(864, 209) rotate(10.0)" class="key keypos-31">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#z_hyp">
+<text x="0" y="0" class="key tap layer-activator">z_hyp</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(241, 236)" class="key held keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<a href="#base">
+<text x="0" y="0" class="key held tap layer-activator">base</text>
+</a><text x="0" y="24" class="key held hold">toggle</text>
 </g>
 <g transform="translate(303, 245) rotate(15.0)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

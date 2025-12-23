@@ -147,10 +147,10 @@ layers:
   - Hyper+N
   - Alt+BACKSPACE
   - Alt+DEL
-  - {t: ▽, type: trans}
+  - ESC
   - {t: z_hyp_num, h: toggle}
-  - {t: ▽, type: trans}
-  - {type: held}
+  - {t: z_hyp, h: toggle}
+  - {t: base, h: toggle, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
