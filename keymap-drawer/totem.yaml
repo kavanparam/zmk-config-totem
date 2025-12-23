@@ -128,7 +128,7 @@ layers:
   - Gui+LEFT
   - Gui+RIGHT
   - Gui+DOWN
-  - CAPS
+  - CAPSLOCK
   - {t: Hyper+S, h: system}
   - Alt+UP
   - format
