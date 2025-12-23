@@ -231,7 +231,7 @@
         z_hyp {
             bindings = <
         &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE            &kp LA(RIGHT)          &kp DEL  &trans          &kp LG(UP)             &kp LA(UP)         &kp LG(LEFT)  &kp LG(RIGHT)  &kp LG(DOWN)
-        &kp CAPS               &lt 6 LS(LA(LC(LG(S))))  &kp LA(UP)             &mo 5    &trans          &kp LEFT               &kp DOWN           &kp UP        &kp RIGHT      &kp ENTER
+        &kp CAPSLOCK           &lt 6 LS(LA(LC(LG(S))))  &kp LA(UP)             &mo 5    &trans          &kp LEFT               &kp DOWN           &kp UP        &kp RIGHT      &kp ENTER
 &trans  &trans                 &trans                   &kp LS(LA(LC(LG(C))))  &trans   &kp LA(LEFT)    &kp LS(LA(LC(LG(N))))  &kp LA(BACKSPACE)  &kp LA(DEL)   &kp ESC        &tog 4        &tog 3
                                                         &to 0                  &trans   &trans          &trans                 &trans             &trans
             >;
