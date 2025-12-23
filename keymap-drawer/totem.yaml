@@ -128,7 +128,7 @@ layers:
   - Gui+LEFT
   - Gui+RIGHT
   - Gui+DOWN
-  - CAPSLOCK
+  - LCAPS
   - {t: Hyper+S, h: system}
   - Alt+UP
   - format
@@ -465,4 +465,7 @@ combos:
   l: [base]
 - p: [27, 28]
   k: ENTER
+  l: [base]
+- p: [14, 15]
+  k: '&caps_word'
   l: [base]
