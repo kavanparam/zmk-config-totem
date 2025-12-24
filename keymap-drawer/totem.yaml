@@ -145,8 +145,8 @@ layers:
   - {t: ▽, type: trans}
   - Alt+LEFT
   - Hyper+N
-  - Alt+BACKSPACE
-  - Alt+DEL
+  - {t: Alt+BSPC, h: Alt+Sft+BSPC}
+  - {t: Alt+DEL, h: Alt+Sft+DEL}
   - ESC
   - {t: z_hyp_num, h: toggle}
   - {t: z_hyp, h: toggle}
