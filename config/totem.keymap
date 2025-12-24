@@ -131,6 +131,22 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        zoom-in {
+            bindings = <&kp LG(EQUAL)>;
+            key-positions = <9 19>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        zoom-out {
+            bindings = <&kp LG(MINUS)>;
+            key-positions = <30 19>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
     };
 
     behaviors {
