@@ -513,3 +513,9 @@ combos:
 - p: [10, 0]
   k: Gui+A
   l: [base]
+- p: [9, 19]
+  k: Gui+=
+  l: [base]
+- p: [30, 19]
+  k: Gui+-
+  l: [base]

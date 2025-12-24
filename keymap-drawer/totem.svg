@@ -381,6 +381,14 @@ path.combo {
 <rect rx="6" ry="6" x="64" y="128" width="28" height="26" class="combo"/>
 <text x="78" y="141" class="combo tap">Gui+A</text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="804" y="128" width="28" height="26" class="combo"/>
+<text x="818" y="141" class="combo tap">Gui+=</text>
+</g>
+<g class="combo combopos-16">
+<rect rx="6" ry="6" x="795" y="183" width="28" height="26" class="combo"/>
+<text x="809" y="196" class="combo tap">Gui+-</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 365)" class="layer-nav_num">
