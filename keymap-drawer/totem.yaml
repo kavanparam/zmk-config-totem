@@ -499,9 +499,6 @@ combos:
 - p: [1, 2]
   k: ESC
   l: [base]
-- p: [2, 3]
-  k: Hyper+SPACE
-  l: [base]
 - p: [7, 6]
   k: ENTER
 - p: [14, 15]
@@ -518,4 +515,10 @@ combos:
   l: [base]
 - p: [30, 19]
   k: Gui+-
+  l: [base]
+- p: [3, 13]
+  k: Hyper+SPACE
+  l: [base]
+- p: [2, 3]
+  k: TAB
   l: [base]
