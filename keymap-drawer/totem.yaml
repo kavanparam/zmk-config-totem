@@ -36,7 +36,7 @@ layers:
   - {t: ESCAPE, h: z_hyp}
   - {t: SPACE, h: nav_num}
   - {t: TAB, h: l_singlehand}
-  - {t: ENTER, h: LEFT SHIFT}
+  - {t: LSHIFT, h: ENTER}
   - {t: BACKSPACE, h: sym_func}
   - {t: Alt+BACKSPACE, h: z_hyp, s: Alt+DEL}
   nav_num:
@@ -465,7 +465,6 @@ combos:
   l: [base]
 - p: [27, 28]
   k: ENTER
-  l: [base]
 - p: [14, 15]
   k: '&caps_word'
   l: [base]
