@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHIFT}
   - {t: L, h: RALT}
   - {t: ;, h: LCMD}
-  - {t: '&td_esclock', h: quick}
+  - '&td_esclock'
   - Z
   - X
   - C
@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
