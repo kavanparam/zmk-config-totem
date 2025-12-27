@@ -131,8 +131,8 @@ layers:
   - CAPS
   - {t: Hyper+S, h: system}
   - Alt+UP
-  - format
-  - {t: ▽, type: trans}
+  - {t: Hyper+F, h: format}
+  - Hyper+G
   - LEFT
   - DOWN
   - UP
@@ -429,6 +429,45 @@ layers:
   - '&mkp MCLK'
   - '&mkp LCLK'
   - '&mkp MCLK'
+  mouse_miryoku:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: base, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MCLK'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
   macro:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -562,5 +601,5 @@ combos:
   k: TAB
   l: [base]
 - p: [2, 12]
-  k: {t: mouse, h: toggle}
+  k: {t: mouse_miryoku, h: toggle}
   l: [base]
