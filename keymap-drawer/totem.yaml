@@ -153,7 +153,7 @@ layers:
   - {t: base, h: toggle, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   z_hyp_num:
