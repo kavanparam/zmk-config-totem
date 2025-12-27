@@ -49,7 +49,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - /
+  - .
   - '&msc SCRL_UP'
   - LEFT
   - DOWN
@@ -70,7 +70,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - .
+  - /
   - {t: nav_num, h: toggle}
   - {t: ▽, type: trans}
   - {type: held}
@@ -218,8 +218,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Hyper+F
+  - Hyper+G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
