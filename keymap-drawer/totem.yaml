@@ -35,7 +35,7 @@ layers:
   - ''''
   - {t: ESCAPE, h: z_hyp}
   - {t: SPACE, h: nav_num}
-  - {t: TAB, h: l_singlehand}
+  - {t: TAB, h: l_single}
   - {t: LSHIFT, h: LSHIFT}
   - {t: BACKSPACE, h: sym_func}
   - {t: Alt+BACKSPACE, h: z_hyp, s: Alt+DEL}
@@ -312,7 +312,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  l_singlehand:
+  l_single:
   - P
   - O
   - I
@@ -390,6 +390,45 @@ layers:
   - ''
   - ''
   - ''
+  mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: base, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MCLK'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
   macro:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -425,7 +464,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: l_singlehand, h: toggle}
+  - {t: l_single, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -521,4 +560,7 @@ combos:
   l: [base]
 - p: [2, 3]
   k: TAB
+  l: [base]
+- p: [2, 12]
+  k: {t: mouse, h: toggle}
   l: [base]
