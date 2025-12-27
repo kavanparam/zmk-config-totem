@@ -290,8 +290,8 @@ layers:
   - Hyper+F
   - Hyper+G
   - Gui+[
-  - Ctl+TAB
   - Ctl+Sft+TAB
+  - Ctl+TAB
   - Gui+]
   - Gui+W
   - {t: ▽, type: trans}
