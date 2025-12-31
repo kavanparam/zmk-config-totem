@@ -480,7 +480,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: l_single, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -503,7 +503,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: l_single, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -601,5 +601,8 @@ combos:
   k: TAB
   l: [base]
 - p: [2, 12]
+  k: {t: mouse_miryoku, h: toggle}
+  l: [base]
+- p: [7, 17]
   k: {t: mouse_miryoku, h: toggle}
   l: [base]
