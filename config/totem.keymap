@@ -23,7 +23,7 @@
             bindings = <&kp LG(Z)>;
             key-positions = <21 22>;
             layers = <0>;
-            timeout-ms = <18>;
+            timeout-ms = <24>;
             require-prior-idle-ms = <150>;
         };
 
@@ -55,6 +55,8 @@
             bindings = <&kp LSHIFT>;
             key-positions = <24 25>;
             layers = <0 1>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
         };
 
         cut {
@@ -77,33 +79,37 @@
             bindings = <&kp LS(LG(S))>;
             key-positions = <13 11>;
             layers = <0>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
         };
 
         f_emdash {
             bindings = <&kp LA(LS(MINUS))>;
             key-positions = <13 22>;
             layers = <0>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
         };
 
         escape {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
             layers = <0>;
-            timeout-ms = <18>;
+            timeout-ms = <22>;
             require-prior-idle-ms = <150>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <7 6>;
-            timeout-ms = <18>;
+            timeout-ms = <24>;
             require-prior-idle-ms = <150>;
         };
 
         caps-word {
             bindings = <&caps_word>;
             key-positions = <14 15>;
-            timeout-ms = <30>;
+            timeout-ms = <34>;
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
@@ -151,14 +157,22 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <2 3>;
-            timeout-ms = <18>;
+            timeout-ms = <22>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
 
-        mouse {
+        l-mouse {
             bindings = <&tog 11>;
             key-positions = <2 12>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        r-mouse {
+            bindings = <&tog 11>;
+            key-positions = <7 17>;
             timeout-ms = <30>;
             require-prior-idle-ms = <50>;
             layers = <0>;
@@ -357,9 +371,9 @@
         macro {
             bindings = <
         &trans  &trans  &to 9   &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &tog 9  &trans
+        &trans  &to 8   &trans  &trans  &trans    &trans  &trans  &trans  &tog 9  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &to 8     &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
