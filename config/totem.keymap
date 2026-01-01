@@ -177,6 +177,14 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        play_pause {
+            bindings = <&kp C_PLAY>;
+            key-positions = <13 24>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
     };
 
     behaviors {
