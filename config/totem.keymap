@@ -163,7 +163,7 @@
         };
 
         play_pause {
-            bindings = <&kp C_PLAY>;
+            bindings = <&kp C_PLAY_PAUSE>;
             key-positions = <13 24>;
             timeout-ms = <30>;
             require-prior-idle-ms = <50>;
