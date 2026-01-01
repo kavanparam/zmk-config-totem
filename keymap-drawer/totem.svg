@@ -305,8 +305,8 @@ path.combo {
 </a><text x="0" y="-24" class="key shifted">Alt+DEL</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="104" y="186" width="28" height="26" class="combo"/>
-<text x="118" y="199" class="combo tap">Gui+Z</text>
+<rect rx="6" ry="6" x="128" y="133" width="28" height="26" class="combo"/>
+<text x="142" y="146" class="combo tap">Gui+Z</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="73" y="183" width="28" height="26" class="combo"/>
