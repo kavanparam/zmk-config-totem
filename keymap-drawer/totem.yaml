@@ -565,9 +565,6 @@ combos:
 - p: [22, 24]
   k: Gui+X
   l: [base]
-- p: [4, 3]
-  k: PLAY PAUSE
-  l: [base]
 - p: [13, 11]
   k: Sft+Gui+S
   l: [base]
@@ -579,9 +576,6 @@ combos:
   l: [base]
 - p: [7, 6]
   k: ENTER
-- p: [14, 15]
-  k: '&caps_word'
-  l: [base]
 - p: [8, 7]
   k: BSPC
   l: [base]
