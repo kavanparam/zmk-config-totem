@@ -606,3 +606,6 @@ combos:
 - p: [7, 17]
   k: {t: mouse_miryoku, h: toggle}
   l: [base]
+- p: [13, 24]
+  k: PLAY
+  l: [base]

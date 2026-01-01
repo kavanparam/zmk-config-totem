@@ -406,6 +406,10 @@ path.combo {
 <text x="696" y="56" class="combo tap layer-activator"><tspan style="font-size: 64%">mouse_miry…</tspan></text>
 </a><text x="696" y="67" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-20">
+<rect rx="6" ry="6" x="242" y="127" width="28" height="26" class="combo"/>
+<text x="256" y="140" class="combo tap">PLAY</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 365)" class="layer-nav_num">
