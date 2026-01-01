@@ -461,7 +461,7 @@ layers:
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
-  - {t: ▽, type: trans}
+  - {t: base, h: toggle}
   - {t: base, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -496,7 +496,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: mouse, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
