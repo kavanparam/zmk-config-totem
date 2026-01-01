@@ -601,5 +601,5 @@ combos:
   k: {t: mouse_miryoku, h: toggle}
   l: [base]
 - p: [13, 24]
-  k: PLAY
+  k: PLAY PAUSE
   l: [base]
