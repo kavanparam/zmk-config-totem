@@ -72,7 +72,7 @@ layers:
   - '3'
   - /
   - {t: nav_num, h: toggle}
-  - {t: ▽, type: trans}
+  - {t: base, h: toggle}
   - {type: held}
   - {t: ▽, type: trans}
   - '='
