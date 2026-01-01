@@ -36,7 +36,7 @@ layers:
   - {t: ESCAPE, h: z_hyp}
   - {t: SPACE, h: nav_num}
   - {t: TAB, h: l_single}
-  - {t: LSHIFT, h: LSHIFT}
+  - {t: LSHIFT, h: LSHIFT, s: '&caps_word'}
   - {t: BACKSPACE, h: sym_func}
   - {t: Alt+BACKSPACE, h: z_hyp, s: Alt+DEL}
   nav_num:
