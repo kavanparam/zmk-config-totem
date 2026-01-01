@@ -21,10 +21,10 @@
 
         undo {
             bindings = <&kp LG(Z)>;
-            key-positions = <21 22>;
+            key-positions = <22 11>;
             layers = <0>;
-            timeout-ms = <24>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
         };
 
         redo {
