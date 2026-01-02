@@ -130,7 +130,7 @@ layers:
   - Gui+DOWN
   - CAPS
   - {t: Hyper+S, h: system}
-  - Alt+UP
+  - Alt+DOWN
   - {t: Hyper+F, h: format}
   - Hyper+G
   - LEFT
