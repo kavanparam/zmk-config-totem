@@ -220,7 +220,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+X
   - Gui+C
-  - {t: ▽, type: trans}
+  - Gui+V
   - Sft+Alt+LEFT
   - LEFT
   - DOWN
