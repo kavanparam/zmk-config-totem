@@ -15,7 +15,7 @@ layers:
   - {t: S, h: LALT}
   - {t: D, h: LSHIFT}
   - {t: F, h: LCTRL}
-  - {t: G, h: device}
+  - {t: G, h: macro}
   - H
   - {t: J, h: RCTRL}
   - {t: K, h: RSHIFT}
@@ -35,7 +35,7 @@ layers:
   - ''''
   - {t: ESCAPE, h: z_hyp}
   - {t: SPACE, h: nav_num}
-  - {t: TAB, h: quick}
+  - {t: TAB, h: l_single}
   - {t: LSHIFT, h: LSHIFT, s: '&caps_word'}
   - {t: BACKSPACE, h: sym_func}
   - {t: Alt+BACKSPACE, h: z_hyp, s: Alt+DEL}
@@ -347,7 +347,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: base, h: toggle}
   - {t: l_num, h: toggle}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -464,7 +464,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -483,7 +483,7 @@ layers:
   - {t: l_single, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -522,7 +522,7 @@ layers:
   - BRI DN
   - VOL DN
   - NEXT
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -595,10 +595,10 @@ combos:
   k: TAB
   l: [base]
 - p: [2, 12]
-  k: {t: quick, h: toggle}
+  k: {t: mouse, h: toggle}
   l: [base]
 - p: [7, 17]
-  k: {t: quick, h: toggle}
+  k: {t: mouse, h: toggle}
   l: [base]
 - p: [13, 24]
   k: PLAY PAUSE
