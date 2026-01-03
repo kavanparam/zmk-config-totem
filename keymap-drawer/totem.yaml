@@ -15,7 +15,7 @@ layers:
   - {t: S, h: LALT}
   - {t: D, h: LSHIFT}
   - {t: F, h: LCTRL}
-  - {t: G, h: macro}
+  - {t: G, h: device}
   - H
   - {t: J, h: RCTRL}
   - {t: K, h: RSHIFT}
@@ -191,45 +191,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: base, h: toggle, type: held}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  quick:
-  - ^
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Hyper+1
-  - Hyper+2
-  - Hyper+3
-  - Hyper+4
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Hyper+F
-  - Hyper+G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -429,6 +390,45 @@ layers:
   - '&mkp MCLK'
   - '&mkp LCLK'
   - '&mkp MCLK'
+  quick:
+  - ^
+  - Gui+Sft+2
+  - Gui+Sft+3
+  - Gui+Sft+4
+  - Gui+Sft+5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Hyper+1
+  - Hyper+2
+  - Hyper+3
+  - Hyper+4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Hyper+F
+  - Hyper+G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   macro:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -444,7 +444,7 @@ layers:
   - {t: l_single, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -502,7 +502,7 @@ layers:
   - ''
   - BT CLR
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -521,7 +521,7 @@ combos:
   k: Gui+C
   l: [base]
 - p: [24, 25]
-  k: LSHIFT
+  k: {t: LSHIFT, h: sticky}
   l: [base, nav_num]
 - p: [22, 24]
   k: Gui+X
