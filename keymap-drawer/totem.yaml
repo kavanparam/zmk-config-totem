@@ -547,10 +547,10 @@ layers:
   - ''
   - ''
 combos:
-- p: [22, 11]
+- p: [12, 23]
   k: Gui+Z
   l: [base]
-- p: [21, 10]
+- p: [11, 22]
   k: Gui+Sft+Z
   l: [base]
 - p: [23, 24]

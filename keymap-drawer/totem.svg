@@ -305,13 +305,13 @@ path.combo {
 </a><text x="0" y="-24" class="key shifted">Alt+DEL</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="128" y="133" width="28" height="26" class="combo"/>
-<text x="142" y="146" class="combo tap">Gui+Z</text>
+<rect rx="6" ry="6" x="186" y="99" width="28" height="26" class="combo"/>
+<text x="200" y="112" class="combo tap">Gui+Z</text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="73" y="183" width="28" height="26" class="combo"/>
-<text x="87" y="196" class="combo tap">
-<tspan x="87" dy="-0.6em">Gui+Sft</tspan><tspan x="87" dy="1.2em">+Z</tspan>
+<rect rx="6" ry="6" x="128" y="133" width="28" height="26" class="combo"/>
+<text x="142" y="146" class="combo tap">
+<tspan x="142" dy="-0.6em">Gui+Sft</tspan><tspan x="142" dy="1.2em">+Z</tspan>
 </text>
 </g>
 <g class="combo combopos-2">
