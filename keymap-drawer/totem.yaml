@@ -35,7 +35,7 @@ layers:
   - ''''
   - {t: ESCAPE, h: z_hyp}
   - {t: SPACE, h: nav_num}
-  - {t: TAB, h: l_single}
+  - {t: TAB, h: quick}
   - {t: LSHIFT, h: LSHIFT, s: '&caps_word'}
   - {t: BACKSPACE, h: sym_func}
   - {t: Alt+BACKSPACE, h: z_hyp, s: Alt+DEL}
@@ -273,45 +273,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  l_single:
-  - P
-  - O
-  - I
-  - U
-  - Y
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ;
-  - L
-  - K
-  - J
-  - H
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BACKSPACE
-  - /
-  - .
-  - ','
-  - M
-  - N
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: base, h: toggle}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   lightroom:
   - Gui+Sft+C
   - Gui+Z
@@ -351,6 +312,84 @@ layers:
   - ''
   - ''
   - ''
+  l_single:
+  - P
+  - O
+  - I
+  - U
+  - Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ;
+  - L
+  - K
+  - J
+  - H
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BACKSPACE
+  - /
+  - .
+  - ','
+  - M
+  - N
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: base, h: toggle}
+  - {t: l_num, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  l_num:
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: base, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -425,7 +464,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -522,7 +561,7 @@ combos:
   l: [base]
 - p: [24, 25]
   k: {t: LSHIFT, h: sticky}
-  l: [base, nav_num]
+  l: [base, nav_num, l_single, l_num]
 - p: [22, 24]
   k: Gui+X
   l: [base]
@@ -556,10 +595,10 @@ combos:
   k: TAB
   l: [base]
 - p: [2, 12]
-  k: {t: mouse, h: toggle}
+  k: {t: quick, h: toggle}
   l: [base]
 - p: [7, 17]
-  k: {t: mouse, h: toggle}
+  k: {t: quick, h: toggle}
   l: [base]
 - p: [13, 24]
   k: PLAY PAUSE
