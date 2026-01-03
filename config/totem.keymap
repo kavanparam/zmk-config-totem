@@ -169,6 +169,22 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        f_bold {
+            bindings = <&kp LG(B)>;
+            key-positions = <13 25>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        f_italic {
+            bindings = <&kp LG(I)>;
+            key-positions = <13 7>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
     };
 
     behaviors {
