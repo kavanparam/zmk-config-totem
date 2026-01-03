@@ -21,7 +21,7 @@
 
         undo {
             bindings = <&kp LG(Z)>;
-            key-positions = <22 11>;
+            key-positions = <12 23>;
             layers = <0>;
             timeout-ms = <30>;
             require-prior-idle-ms = <50>;
@@ -29,7 +29,7 @@
 
         redo {
             bindings = <&kp LG(LS(Z))>;
-            key-positions = <21 10>;
+            key-positions = <11 22>;
             layers = <0>;
             timeout-ms = <30>;
             require-prior-idle-ms = <50>;
