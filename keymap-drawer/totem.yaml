@@ -564,3 +564,9 @@ combos:
 - p: [13, 24]
   k: PLAY PAUSE
   l: [base]
+- p: [13, 25]
+  k: Gui+B
+  l: [base]
+- p: [13, 7]
+  k: Gui+I
+  l: [base]

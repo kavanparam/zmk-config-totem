@@ -400,6 +400,16 @@ path.combo {
 <tspan x="256" dy="-0.6em">PLAY</tspan><tspan x="256" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
+<g class="combo combopos-19">
+<rect rx="6" ry="6" x="270" y="131" width="28" height="26" class="combo"/>
+<text x="284" y="144" class="combo tap">Gui+B</text>
+</g>
+<g class="combo combopos-20">
+<path d="M476,70 l-201,38" class="combo"/>
+<path d="M476,70 l201,-38" class="combo"/>
+<rect rx="6" ry="6" x="462" y="57" width="28" height="26" class="combo"/>
+<text x="476" y="70" class="combo tap">Gui+I</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 365)" class="layer-nav_num">
