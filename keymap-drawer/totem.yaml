@@ -444,7 +444,7 @@ layers:
   - Hyper+2
   - Hyper+3
   - Hyper+4
-  - {t: ▽, type: trans}
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -522,7 +522,7 @@ layers:
   - BRI DN
   - VOL DN
   - NEXT
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -541,7 +541,7 @@ layers:
   - ''
   - BT CLR
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
