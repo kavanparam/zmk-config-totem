@@ -187,7 +187,7 @@
         };
 
         f_dash {
-            bindings = <&kp LG(MINUS)>;
+            bindings = <&kp MINUS>;
             key-positions = <13 27>;
             timeout-ms = <18>;
             require-prior-idle-ms = <150>;
