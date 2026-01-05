@@ -415,7 +415,7 @@ path.combo {
 <path d="M448,140 l-173,-25" class="combo"/>
 <path d="M448,140 l173,25" class="combo"/>
 <rect rx="6" ry="6" x="434" y="127" width="28" height="26" class="combo"/>
-<text x="448" y="140" class="combo tap">Gui+-</text>
+<text x="448" y="140" class="combo tap">-</text>
 </g>
 </g>
 </g>
