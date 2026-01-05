@@ -379,7 +379,7 @@
         quick {
             bindings = <
         &kp CARET               &kp LG(LS(N2))          &kp LG(LS(N3))          &kp LG(LS(N4))          &kp LG(LS(N5))    &trans  &trans  &trans  &trans  &trans
-        &kp LS(LA(LC(LG(N1))))  &kp LS(LA(LC(LG(N2))))  &kp LS(LA(LC(LG(N3))))  &kp LS(LA(LC(LG(N4))))  &trans            &trans  &trans  &trans  &trans  &trans
+        &kp LS(LA(LC(LG(N1))))  &kp LS(LA(LC(LG(N2))))  &kp LS(LA(LC(LG(N3))))  &kp LS(LA(LC(LG(N4))))  &kp C_MUTE        &trans  &trans  &trans  &trans  &trans
 &trans  &trans                  &kp LS(LA(LC(LG(F))))   &kp LS(LA(LC(LG(G))))   &trans                  &trans            &trans  &trans  &trans  &trans  &trans  &trans
                                                         &trans                  &trans                  &trans            &trans  &trans  &trans
             >;
@@ -408,7 +408,7 @@
         compatible = "zmk,conditional-layers";
 
         device {
-            if-layers = <13 1>;
+            if-layers = <1 12>;
             then-layer = <13>;
         };
 
