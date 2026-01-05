@@ -609,3 +609,6 @@ combos:
 - p: [13, 7]
   k: Gui+I
   l: [base]
+- p: [13, 27]
+  k: Gui+-
+  l: [base]
