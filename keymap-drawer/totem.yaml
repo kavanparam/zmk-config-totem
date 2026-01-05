@@ -509,8 +509,8 @@ layers:
   - {t: ▽, type: trans}
   device:
   - ''
-  - BRI UP
-  - VOL UP
+  - ''
+  - MUTE
   - PLAY PAUSE
   - ''
   - {t: BT, h: '0'}
@@ -519,8 +519,8 @@ layers:
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - ''
-  - BRI DN
-  - VOL DN
+  - BRI UP
+  - VOL UP
   - NEXT
   - {type: held}
   - ''
@@ -530,8 +530,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - MUTE
+  - BRI DN
+  - VOL DN
   - PREV
   - ''
   - ''
