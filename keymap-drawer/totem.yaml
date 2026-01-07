@@ -609,3 +609,6 @@ combos:
 - p: [13, 27]
   k: '-'
   l: [base]
+- p: [13, 15]
+  k: Gui+Sft+H
+  l: [base]
