@@ -217,7 +217,6 @@
             flavor = "balanced";
             require-prior-idle-ms = <150>;
             hold-trigger-on-release;
-            hold-trigger-key-positions = <35 36 37 32 33 34 5 15 26 27 16 6 7 17 28 29 18 8 9 19 30 31>;
         };
 
         mm_opt_del: mm_opt_del {
@@ -337,7 +336,7 @@
            &kp HASH       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPS          &kp CARET         &kp F15  &kp F7  &kp F8  &kp F9  &kp F12
            &kp STAR       &kp LBKT              &kp RBKT               &kp PERCENT       &kp BACKSLASH     &kp F14  &kp F4  &kp F5  &kp F6  &kp F11
 &kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F13  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                                &kp DLLR               &kp SPACE         &trans            &trans   &trans  &trans
+                                                &kp DLLR               &kp SPACE         &kp N0            &trans   &trans  &trans
             >;
         };
 
