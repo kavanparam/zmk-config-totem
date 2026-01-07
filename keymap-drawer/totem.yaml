@@ -75,7 +75,7 @@ layers:
   - {t: base, h: toggle}
   - {type: held}
   - {t: ▽, type: trans}
-  - '='
+  - {t: '=', h: LSHIFT}
   - BACKSPACE
   - '0'
   sym_func:
