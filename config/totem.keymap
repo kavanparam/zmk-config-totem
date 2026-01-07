@@ -146,14 +146,6 @@
             layers = <0>;
         };
 
-        l-mouse {
-            bindings = <&tog 10>;
-            key-positions = <2 12>;
-            timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
-            layers = <0>;
-        };
-
         r-mouse {
             bindings = <&tog 10>;
             key-positions = <7 17>;
