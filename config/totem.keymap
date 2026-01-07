@@ -185,6 +185,14 @@
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
+
+        f_highlight {
+            bindings = <&kp LG(LS(H))>;
+            key-positions = <13 15>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
     };
 
     behaviors {
