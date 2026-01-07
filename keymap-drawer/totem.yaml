@@ -594,9 +594,6 @@ combos:
 - p: [2, 3]
   k: TAB
   l: [base]
-- p: [2, 12]
-  k: {t: mouse, h: toggle}
-  l: [base]
 - p: [7, 17]
   k: {t: mouse, h: toggle}
   l: [base]
