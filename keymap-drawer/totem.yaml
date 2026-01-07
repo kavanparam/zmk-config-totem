@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - $
   - SPACE
-  - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
