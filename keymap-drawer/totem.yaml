@@ -426,7 +426,7 @@ layers:
   - {t: base, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MCLK'
+  - '&mkp RCLK'
   - '&mkp LCLK'
   - '&mkp MCLK'
   quick:
