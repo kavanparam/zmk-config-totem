@@ -71,7 +71,7 @@ layers:
   - '2'
   - '3'
   - /
-  - {t: nav_num, h: toggle}
+  - '%'
   - {t: base, h: toggle}
   - {type: held}
   - {t: ▽, type: trans}
@@ -495,7 +495,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: nav_num, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
