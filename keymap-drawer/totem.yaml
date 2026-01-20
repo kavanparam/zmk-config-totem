@@ -215,7 +215,7 @@ layers:
   - Sft+DOWN
   - Sft+UP
   - Sft+RIGHT
-  - {t: ▽, type: trans}
+  - Gui+K
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+X
@@ -228,7 +228,7 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: Gui+V, type: held}
   - Alt+Sft+LEFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -608,4 +608,7 @@ combos:
   l: [base]
 - p: [13, 15]
   k: Gui+Sft+H
+  l: [base]
+- p: [13, 23]
+  k: '-'
   l: [base]
