@@ -103,8 +103,8 @@ layers:
   - <
   - (
   - )
-  - '>'
   - _
+  - '>'
   - F13
   - F1
   - F2
@@ -137,7 +137,7 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - ENTER
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -611,4 +611,10 @@ combos:
   l: [base]
 - p: [13, 23]
   k: '-'
+  l: [base]
+- p: [6, 16]
+  k: Hyper+SPACE
+  l: [base]
+- p: [16, 36]
+  k: PLAY PAUSE
   l: [base]
