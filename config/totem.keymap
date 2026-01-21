@@ -94,7 +94,7 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <7 6>;
-            timeout-ms = <24>;
+            timeout-ms = <30>;
             require-prior-idle-ms = <150>;
         };
 
@@ -122,7 +122,7 @@
             layers = <0>;
         };
 
-        raycast {
+        l-raycast {
             bindings = <&kp LG(LS(LA(LC(SPACE))))>;
             key-positions = <3 13>;
             timeout-ms = <30>;
@@ -146,7 +146,7 @@
             layers = <0>;
         };
 
-        play_pause {
+        l-play_pause {
             bindings = <&kp C_PLAY_PAUSE>;
             key-positions = <13 33>;
             timeout-ms = <30>;
@@ -191,6 +191,22 @@
             key-positions = <13 23>;
             timeout-ms = <18>;
             require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        r-raycast {
+            bindings = <&kp LG(LS(LA(LC(SPACE))))>;
+            key-positions = <6 16>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        r-play_pause {
+            bindings = <&kp C_PLAY_PAUSE>;
+            key-positions = <16 36>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
             layers = <0>;
         };
     };
@@ -352,17 +368,17 @@
 
         sym_func {
             bindings = <
-           &kp HASH       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPS          &kp CARET         &kp F15  &kp F7  &kp F8  &kp F9  &kp F12
-           &kp STAR       &kp LBKT              &kp RBKT               &kp PERCENT       &kp BACKSLASH     &kp F14  &kp F4  &kp F5  &kp F6  &kp F11
-&kp GRAVE  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &kp UNDERSCORE    &kp F13  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                                &kp DLLR               &kp SPACE         &kp N0            &trans   &trans  &trans
+           &kp HASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPS     &kp CARET        &kp F15  &kp F7  &kp F8  &kp F9  &kp F12
+           &kp STAR  &kp LBKT              &kp RBKT               &kp PERCENT  &kp BACKSLASH    &kp F14  &kp F4  &kp F5  &kp F6  &kp F11
+&kp GRAVE  &kp LT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER    &kp GT           &kp F13  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                           &kp DLLR               &kp SPACE    &kp N0           &trans   &trans  &trans
             >;
         };
 
         z_hyp {
             bindings = <
         &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE            &kp LA(RIGHT)          &kp DEL                  &trans                   &kp LG(UP)             &kp LA(UP)                 &kp LG(LEFT)               &kp LG(RIGHT)  &kp LG(DOWN)
-        &kp CAPS               &lt 6 LS(LA(LC(LG(S))))  &kp LA(DOWN)           &lt 5 LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))    &kp LEFT               &kp DOWN                   &kp UP                     &kp RIGHT      &kp ENTER
+        &kp CAPS               &lt 6 LS(LA(LC(LG(S))))  &kp LA(DOWN)           &lt 5 LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))    &kp LEFT               &kp DOWN                   &kp UP                     &kp RIGHT      &kp SPACE
 &trans  &trans                 &trans                   &kp LS(LA(LC(LG(C))))  &trans                   &kp LA(LEFT)             &kp LS(LA(LC(LG(N))))  &mt LA(LS(LEFT)) LA(BSPC)  &mt LA(LS(RIGHT)) LA(DEL)  &kp ESC        &tog 4        &tog 3
                                                         &to 0                  &trans                   &trans                   &kp SPACE              &trans                     &trans
             >;
