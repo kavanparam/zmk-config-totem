@@ -619,5 +619,5 @@ combos:
   k: PLAY PAUSE
   l: [base]
 - p: [12, 33]
-  k: UNDO
+  k: Gui+Z
   l: [base]
