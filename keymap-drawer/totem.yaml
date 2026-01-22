@@ -618,3 +618,6 @@ combos:
 - p: [16, 36]
   k: PLAY PAUSE
   l: [base]
+- p: [12, 33]
+  k: UNDO
+  l: [base]
