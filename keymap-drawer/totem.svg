@@ -442,6 +442,22 @@ path.combo {
 <rect rx="6" ry="6" x="238" y="152" width="28" height="26" class="combo"/>
 <text x="252" y="165" class="combo tap">Gui+Z</text>
 </g>
+<g class="combo combopos-25">
+<path d="M280,177 l-68,-79" class="combo"/>
+<path d="M280,177 l68,79" class="combo"/>
+<rect rx="6" ry="6" x="266" y="164" width="28" height="26" class="combo"/>
+<text x="280" y="177" class="combo tap">
+<tspan x="280" dy="-0.6em">Gui+Sft</tspan><tspan x="280" dy="1.2em">+Z</tspan>
+</text>
+</g>
+<g class="combo combopos-26">
+<path d="M308,191 l-42,-64" class="combo"/>
+<path d="M308,191 l42,64" class="combo"/>
+<rect rx="6" ry="6" x="294" y="178" width="28" height="26" class="combo"/>
+<text x="308" y="191" class="combo tap">
+<tspan x="308" dy="-0.6em">Hyper+</tspan><tspan x="308" dy="1.2em">SPACE</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 365)" class="layer-nav_num">

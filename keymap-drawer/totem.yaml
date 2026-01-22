@@ -621,3 +621,9 @@ combos:
 - p: [12, 33]
   k: Gui+Z
   l: [base]
+- p: [12, 34]
+  k: Gui+Sft+Z
+  l: [base]
+- p: [13, 34]
+  k: Hyper+SPACE
+  l: [base]
