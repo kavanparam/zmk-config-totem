@@ -217,6 +217,22 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        l-redo2 {
+            bindings = <&kp LG(LS(Z))>;
+            key-positions = <12 34>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        l-raycast2 {
+            bindings = <&kp LG(LS(LA(LC(SPACE))))>;
+            key-positions = <13 34>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
     };
 
     behaviors {
