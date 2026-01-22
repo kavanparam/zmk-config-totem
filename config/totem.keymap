@@ -209,6 +209,14 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        l-undo2 {
+            bindings = <&kp K_UNDO>;
+            key-positions = <12 33>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
     };
 
     behaviors {
