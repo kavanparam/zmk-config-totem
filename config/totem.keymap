@@ -211,7 +211,7 @@
         };
 
         l-undo2 {
-            bindings = <&kp K_UNDO>;
+            bindings = <&kp LG(Z)>;
             key-positions = <12 33>;
             timeout-ms = <30>;
             require-prior-idle-ms = <50>;
