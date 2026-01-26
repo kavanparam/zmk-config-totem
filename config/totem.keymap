@@ -376,7 +376,7 @@
             bindings = <
              &kp Q              &kp W              &kp E                &kp R               &kp T           &kp Y                    &kp U               &kp I                &kp O              &kp P
              &ht_l_thrm LCMD A  &ht_l_thrm LALT S  &ht_l_thrm LSHIFT D  &ht_l_thrm LCTRL F  &lt_ext 12 G    &kp H                    &ht_r_thrm RCTRL J  &ht_r_thrm RSHIFT K  &ht_r_thrm RALT L  &ht_r_thrm LCMD SEMICOLON
-&td_esclock  &kp Z              &kp X              &kp C                &kp V               &kp B           &kp N                    &kp M               &kp COMMA            &kp DOT            &kp FSLH                   &kp APOS
+&td_esclock  &kp Z              &kp X              &kp C                &kp V               &kp B           &kp N                    &kp M               &kp COMMA            &kp DOT            &kp FSLH                   &lt_ext 11 APOSTROPHE
                                                    &lt 3 ESCAPE         &lt 1 SPACE         &lt 8 TAB       &ht_shift LSHIFT LSHIFT  &ht_bspc 2 0        &ht_optdel 3 0
             >;
         };
@@ -473,10 +473,10 @@
 
         quick {
             bindings = <
-        &kp CARET               &kp LG(LS(N2))          &kp LG(LS(N3))          &kp LG(LS(N4))          &kp LG(LS(N5))    &trans  &trans  &trans  &trans  &trans
-        &kp LS(LA(LC(LG(N1))))  &kp LS(LA(LC(LG(N2))))  &kp LS(LA(LC(LG(N3))))  &kp LS(LA(LC(LG(N4))))  &kp C_MUTE        &trans  &trans  &trans  &trans  &trans
-&trans  &kp LS(LA(LC(LG(M))))   &kp LS(LA(LC(LG(F))))   &kp LS(LA(LC(LG(G))))   &trans                  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                                                        &trans                  &trans                  &trans            &trans  &trans  &trans
+        &kp CARET               &kp LG(LS(N2))          &kp LG(LS(N3))          &kp LG(LS(N4))          &kp LG(LS(N5))    &kp LG(LS(N5))  &kp LG(LS(N4))          &kp LG(LS(N3))          &kp LG(LS(N2))          &trans
+        &kp LS(LA(LC(LG(N1))))  &kp LS(LA(LC(LG(N2))))  &kp LS(LA(LC(LG(N3))))  &kp LS(LA(LC(LG(N4))))  &kp C_MUTE        &kp C_MUTE      &kp LS(LA(LC(LG(N4))))  &kp LG(LS(LA(LC(N3))))  &kp LG(LA(LC(LS(N2))))  &kp LC(LS(LA(LG(N1))))
+&trans  &kp LS(LA(LC(LG(M))))   &kp LS(LA(LC(LG(F))))   &kp LS(LA(LC(LG(G))))   &trans                  &trans            &trans          &trans                  &trans                  &trans                  &trans                  &trans
+                                                        &trans                  &trans                  &trans            &trans          &trans                  &trans
             >;
         };
 
