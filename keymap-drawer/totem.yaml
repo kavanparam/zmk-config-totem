@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - ''''
+  - {t: '''', h: quick}
   - {t: ESCAPE, h: z_hyp}
   - {t: SPACE, h: nav_num}
   - {t: TAB, h: l_single}
@@ -435,21 +435,21 @@ layers:
   - Gui+Sft+3
   - Gui+Sft+4
   - Gui+Sft+5
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+5
+  - Gui+Sft+4
+  - Gui+Sft+3
+  - Gui+Sft+2
   - {t: ▽, type: trans}
   - Hyper+1
   - Hyper+2
   - Hyper+3
   - Hyper+4
   - MUTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - MUTE
+  - Hyper+4
+  - Hyper+3
+  - Hyper+2
+  - Hyper+1
   - {t: ▽, type: trans}
   - Hyper+M
   - Hyper+F
@@ -461,7 +461,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
