@@ -384,7 +384,7 @@
         nav_num {
             bindings = <
            &kp LA(BACKSPACE)  &kp BACKSPACE  &kp UP    &kp DELETE  &kp LA(DELETE)    &kp STAR          &kp N7         &kp N8  &kp N9  &kp DOT
-           &msc SCRL_UP       &kp LEFT       &kp DOWN  &kp RIGHT   &mkp LCLK         &kp PLUS          &kp N4         &kp N5  &kp N6  &kp COLON
+           &msc SCRL_UP       &kp LEFT       &kp DOWN  &kp RIGHT   &mkp LCLK         &kp KP_PLUS       &kp N4         &kp N5  &kp N6  &kp COLON
 &kp GRAVE  &msc SCRL_DOWN     &kp ESC        &kp TAB   &kp ENTER   &kp LS(TAB)       &kp MINUS         &kp NUMBER_1   &kp N2  &kp N3  &kp SLASH  &kp PERCENT
                                              &to 0     &trans      &trans            &mt LSHIFT EQUAL  &kp BACKSPACE  &kp N0
             >;
