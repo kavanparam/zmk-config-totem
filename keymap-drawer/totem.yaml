@@ -55,7 +55,7 @@ layers:
   - DOWN
   - RIGHT
   - '&mkp LCLK'
-  - KP PLUS
+  - +
   - '4'
   - '5'
   - '6'
@@ -564,9 +564,6 @@ combos:
   l: [base, nav_num, l_single, l_num]
 - p: [22, 24]
   k: Gui+X
-  l: [base]
-- p: [13, 11]
-  k: Sft+Gui+S
   l: [base]
 - p: [13, 22]
   k: Alt+Sft+-
