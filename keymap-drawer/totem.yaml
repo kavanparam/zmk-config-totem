@@ -55,7 +55,7 @@ layers:
   - DOWN
   - RIGHT
   - '&mkp LCLK'
-  - +
+  - KP PLUS
   - '4'
   - '5'
   - '6'
