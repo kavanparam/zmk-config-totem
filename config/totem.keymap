@@ -369,7 +369,7 @@
              &kp Q              &kp W              &kp E                &kp R               &kp T           &kp Y                    &kp U               &kp I                &kp O              &kp P
              &ht_l_thrm LCMD A  &ht_l_thrm LALT S  &ht_l_thrm LSHIFT D  &ht_l_thrm LCTRL F  &lt_ext 12 G    &kp H                    &ht_r_thrm RCTRL J  &ht_r_thrm RSHIFT K  &ht_r_thrm RALT L  &ht_r_thrm LCMD SEMICOLON
 &td_esclock  &kp Z              &kp X              &kp C                &kp V               &kp B           &kp N                    &kp M               &kp COMMA            &kp DOT            &kp FSLH                   &lt_ext 11 APOSTROPHE
-                                                   &lt 3 ESCAPE         &lt 1 SPACE         &lt 8 TAB       &ht_shift LSHIFT LSHIFT  &ht_bspc 2 0        &ht_optdel 3 0
+                                                   &lt 3 ESCAPE         &lt 1 SPACE         &lt 8 TAB       &ht_shift LSHIFT LSHIFT  &lt 2 BSPC          &ht_optdel 3 0
             >;
         };
 
