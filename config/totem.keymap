@@ -23,16 +23,16 @@
             bindings = <&kp LG(Z)>;
             key-positions = <12 23>;
             layers = <0>;
-            timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
+            timeout-ms = <25>;
+            require-prior-idle-ms = <100>;
         };
 
         redo {
             bindings = <&kp LG(LS(Z))>;
             key-positions = <11 22>;
             layers = <0>;
-            timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
+            timeout-ms = <25>;
+            require-prior-idle-ms = <100>;
         };
 
         paste {
@@ -71,7 +71,7 @@
             bindings = <&kp LA(LS(MINUS))>;
             key-positions = <13 22>;
             layers = <0>;
-            timeout-ms = <18>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
         };
 
@@ -157,7 +157,7 @@
         f_italic {
             bindings = <&kp LG(I)>;
             key-positions = <13 7>;
-            timeout-ms = <18>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
@@ -173,7 +173,7 @@
         f_highlight {
             bindings = <&kp LG(LS(H))>;
             key-positions = <13 15>;
-            timeout-ms = <18>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
@@ -181,7 +181,7 @@
         f_dash2 {
             bindings = <&kp MINUS>;
             key-positions = <13 23>;
-            timeout-ms = <18>;
+            timeout-ms = <25>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
