@@ -624,3 +624,9 @@ combos:
 - p: [13, 34]
   k: Hyper+SPACE
   l: [base]
+- p: [37, 15]
+  k: BACK
+  l: [base]
+- p: [37, 16]
+  k: AC BACK
+  l: [base]
