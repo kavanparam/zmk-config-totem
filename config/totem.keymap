@@ -225,46 +225,6 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
-
-        r-back {
-            bindings = <&kp LG(LBKT)>;
-            key-positions = <37 15>;
-            timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
-            layers = <0>;
-        };
-
-        r-prev {
-            bindings = <&kp LG(LS(TAB))>;
-            key-positions = <37 16>;
-            timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
-            layers = <0>;
-        };
-
-        r-next {
-            bindings = <&kp LG(TAB)>;
-            key-positions = <37 17>;
-            timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
-            layers = <0>;
-        };
-
-        r-forward {
-            bindings = <&kp LG(RBKT)>;
-            key-positions = <37 18>;
-            timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
-            layers = <0>;
-        };
-
-        r-close {
-            bindings = <&kp LG(W)>;
-            key-positions = <37 19>;
-            timeout-ms = <30>;
-            require-prior-idle-ms = <50>;
-            layers = <0>;
-        };
     };
 
     behaviors {
