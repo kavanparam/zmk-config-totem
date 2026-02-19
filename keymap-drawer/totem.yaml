@@ -624,3 +624,18 @@ combos:
 - p: [13, 34]
   k: Hyper+SPACE
   l: [base]
+- p: [15, 37]
+  k: Gui+[
+  l: [base]
+- p: [37, 16]
+  k: Ctl+Sft+TAB
+  l: [base]
+- p: [37, 17]
+  k: Ctl+TAB
+  l: [base]
+- p: [37, 18]
+  k: Gui+]
+  l: [base]
+- p: [37, 19]
+  k: Gui+W
+  l: [base]
