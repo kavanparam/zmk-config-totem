@@ -225,6 +225,22 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        r-back {
+            bindings = <&kp K_BACK>;
+            key-positions = <37 15>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        r-back2 {
+            bindings = <&kp C_AC_BACK>;
+            key-positions = <37 16>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
     };
 
     behaviors {
