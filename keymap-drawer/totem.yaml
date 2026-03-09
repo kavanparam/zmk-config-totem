@@ -148,7 +148,7 @@ layers:
   - {t: Alt+BSPC, h: Alt+Sft+LEFT}
   - {t: Alt+DEL, h: Alt+Sft+RIGHT}
   - ESC
-  - {t: z_hyp_num, h: toggle}
+  - ENTER
   - {t: z_hyp, h: toggle}
   - {t: base, h: toggle, type: held}
   - {t: ▽, type: trans}
@@ -502,7 +502,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - device
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
