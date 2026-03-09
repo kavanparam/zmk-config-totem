@@ -516,10 +516,10 @@
 
         macro {
             bindings = <
-        &trans  &trans  &to 7   &trans   &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &to 8   &trans  &trans   &trans    &trans  &trans  &trans  &to 7   &trans
-&trans  &trans  &trans  &trans  &trans   &trans    &to 1   &trans  &trans  &trans  &trans  &trans
-                        &trans  &tog 13  &trans    &trans  &trans  &trans
+        &trans  &trans  &to 7   &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &to 8   &trans  &trans  &trans    &trans  &trans  &trans  &to 7   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &to 1   &trans  &trans  &trans  &trans  &trans
+                        &trans  &mo 13  &trans    &trans  &trans  &trans
             >;
         };
 
