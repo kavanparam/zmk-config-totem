@@ -536,11 +536,6 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        device {
-            if-layers = <1 12>;
-            then-layer = <13>;
-        };
-
         z_hyp_num {
             if-layers = <1 3>;
             then-layer = <4>;
