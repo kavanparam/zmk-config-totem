@@ -396,33 +396,33 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Q
-  - W
-  - E
-  - R
   - T
+  - R
+  - E
+  - W
+  - Q
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - A
-  - S
-  - D
-  - F
   - G
+  - F
+  - D
+  - S
+  - A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Z
-  - X
-  - C
-  - V
   - B
-  - {t: ▽, type: trans}
+  - V
+  - C
+  - X
+  - Z
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
