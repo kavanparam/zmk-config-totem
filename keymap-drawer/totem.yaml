@@ -37,7 +37,7 @@ layers:
   - {t: SPACE, h: nav_num}
   - {t: TAB, h: l_single}
   - {t: LSHIFT, h: LSHIFT, s: '&caps_word'}
-  - {t: BSPC, h: sym_func}
+  - {t: BSPC, h: sym_func, s: r_single}
   - {t: Alt+BACKSPACE, h: z_hyp, s: Alt+DEL}
   nav_num:
   - Alt+BACKSPACE
@@ -389,6 +389,45 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  r_single:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   mouse:
   - {t: ▽, type: trans}
