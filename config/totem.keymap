@@ -390,13 +390,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             quick-tap-ms = <200>;
-            bindings = <&mo>, <&mm_r_single>;
+            bindings = <&mm_r_single>, <&kp>;
         };
 
         mm_r_single: mm_r_single {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_R_SINGLE";
-            bindings = <&kp BSPC>, <&mo 10>;
+            bindings = <&mo 2>, <&mo 10>;
 
             #binding-cells = <0>;
             mods = <(MOD_RCTL)>;
