@@ -37,7 +37,7 @@ layers:
   - {t: SPACE, h: nav_num}
   - {t: TAB, h: l_single}
   - {t: LSHIFT, h: LSHIFT, s: '&caps_word'}
-  - {t: BSPC, h: sym_func, s: r_single}
+  - {t: '0', h: sym_func}
   - {t: Alt+BACKSPACE, h: z_hyp, s: Alt+DEL}
   nav_num:
   - Alt+BACKSPACE
