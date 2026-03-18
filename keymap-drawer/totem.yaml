@@ -65,7 +65,7 @@ layers:
   - ESC
   - TAB
   - ENTER
-  - Sft+TAB
+  - LSHIFT
   - '-'
   - '1'
   - '2'
