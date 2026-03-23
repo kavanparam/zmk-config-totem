@@ -148,8 +148,8 @@ layers:
   - {t: Alt+BSPC, h: Alt+Sft+LEFT}
   - {t: Alt+DEL, h: Alt+Sft+RIGHT}
   - ESC
-  - ENTER
   - {t: z_hyp, h: toggle}
+  - ENTER
   - {t: base, h: toggle, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -216,7 +216,7 @@ layers:
   - Sft+UP
   - Sft+RIGHT
   - Gui+K
-  - {t: ▽, type: trans}
+  - '`'
   - {t: ▽, type: trans}
   - Gui+X
   - Gui+C
@@ -654,12 +654,6 @@ combos:
 - p: [16, 36]
   k: PLAY PAUSE
   l: [base]
-- p: [12, 33]
-  k: Gui+Z
-  l: [base]
-- p: [12, 34]
-  k: Gui+Sft+Z
-  l: [base]
 - p: [13, 34]
   k: Hyper+SPACE
   l: [base]
@@ -677,4 +671,7 @@ combos:
   l: [base]
 - p: [37, 19]
   k: Gui+W
+  l: [base]
+- p: [28, 27]
+  k: ESC
   l: [base]
