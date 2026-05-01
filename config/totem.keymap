@@ -427,10 +427,10 @@
 
         z_hyp {
             bindings = <
-        &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE            &kp LA(RIGHT)          &kp DEL                  &trans                   &kp LG(UP)             &kp LA(UP)                 &kp LG(LEFT)               &kp LG(RIGHT)  &kp LG(DOWN)
-        &kp CAPS               &lt 6 LS(LA(LC(LG(S))))  &kp LA(DOWN)           &lt 5 LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))    &kp LEFT               &kp DOWN                   &kp UP                     &kp RIGHT      &kp SPACE
-&trans  &trans                 &trans                   &kp LS(LA(LC(LG(C))))  &trans                   &kp LA(LEFT)             &kp LS(LA(LC(LG(N))))  &mt LA(LS(LEFT)) LA(BSPC)  &mt LA(LS(RIGHT)) LA(DEL)  &kp ESC        &tog 3        &kp ENTER
-                                                        &to 0                  &trans                   &trans                   &kp SPACE              &trans                     &trans
+        &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE            &kp LA(RIGHT)                             &kp DEL                  &trans                   &kp LG(UP)             &kp LA(UP)                 &kp LG(LEFT)               &kp LG(RIGHT)  &kp LG(DOWN)
+        &kp CAPS               &lt 6 LS(LA(LC(LG(S))))  &kp LA(DOWN)                              &lt 5 LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))    &kp LEFT               &kp DOWN                   &kp UP                     &kp RIGHT      &kp SPACE
+&trans  &trans                 &trans                   &mt LA(LC(LG(LS(N6)))) LS(LA(LC(LG(C))))  &kp LS(LA(LG(LC(V))))    &kp LA(LEFT)             &kp LS(LA(LC(LG(N))))  &mt LA(LS(LEFT)) LA(BSPC)  &mt LA(LS(RIGHT)) LA(DEL)  &kp ESC        &tog 3        &kp ENTER
+                                                        &to 0                                     &trans                   &trans                   &kp SPACE              &trans                     &trans
             >;
         };
 
