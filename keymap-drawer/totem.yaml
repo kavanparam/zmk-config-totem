@@ -141,8 +141,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Hyper+C
-  - {t: ▽, type: trans}
+  - {t: Hyper+C, h: Hyper+6}
+  - Hyper+V
   - Alt+LEFT
   - Hyper+N
   - {t: Alt+BSPC, h: Alt+Sft+LEFT}
