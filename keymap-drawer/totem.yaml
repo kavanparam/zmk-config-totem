@@ -203,7 +203,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+Sft+UP
   - Sft+Alt+UP
-  - Sft+Gui+LEFT
+  - {t: Sft+Gui+LEFT, s: Gui+I}
   - Sft+Gui+RIGHT
   - Sft+Gui+DOWN
   - {t: ▽, type: trans}
@@ -221,7 +221,7 @@ layers:
   - Gui+X
   - Gui+C
   - Gui+V
-  - Sft+Alt+LEFT
+  - {t: Sft+Alt+LEFT, s: Gui+B}
   - LEFT
   - DOWN
   - UP
