@@ -389,7 +389,7 @@
         mm_r_singleplus: mm_r_singleplus {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_R_SINGLEPLUS";
-            bindings = <&kp LSHIFT>, <&mo 12>;
+            bindings = <&kp LSHIFT>, <&mo 11>;
 
             #binding-cells = <0>;
             mods = <(MOD_RCTL)>;
