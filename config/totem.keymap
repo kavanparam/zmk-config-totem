@@ -131,7 +131,7 @@
         };
 
         r-mouse {
-            bindings = <&tog 12>;
+            bindings = <&tog 13>;
             key-positions = <7 8>;
             timeout-ms = <12>;
             require-prior-idle-ms = <150>;
@@ -301,13 +301,13 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_ESCLOCK";
             #binding-cells = <0>;
-            bindings = <&ht_td_esclock 13 ESC>, <&kp LG(LC(Q))>;
+            bindings = <&ht_td_esclock 14 ESC>, <&kp LG(LC(Q))>;
         };
 
         ht_st_shift: ht_st_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "HT_ST_SHIFT";
-            bindings = <&mm_r_kb>, <&mm_shift_capsword>;
+            bindings = <&mm_r_singleplus>, <&mm_shift_capsword>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -386,10 +386,10 @@
             mods = <(MOD_RCTL)>;
         };
 
-        mm_r_kb: mm_r_kb {
+        mm_r_singleplus: mm_r_singleplus {
             compatible = "zmk,behavior-mod-morph";
-            label = "MM_R_KB";
-            bindings = <&kp LSHIFT>, <&mo 11>;
+            label = "MM_R_SINGLEPLUS";
+            bindings = <&kp LSHIFT>, <&mo 12>;
 
             #binding-cells = <0>;
             mods = <(MOD_RCTL)>;
@@ -402,8 +402,8 @@
         base {
             bindings = <
              &kp Q              &kp W              &kp E                &kp R               &kp T           &kp Y                       &kp U               &kp I                &kp O              &kp P
-             &ht_l_thrm LCMD A  &ht_l_thrm LALT S  &ht_l_thrm LSHIFT D  &ht_l_thrm LCTRL F  &lt_ext 14 G    &kp H                       &ht_r_thrm RCTRL J  &ht_r_thrm RSHIFT K  &ht_r_thrm RALT L  &ht_r_thrm LCMD SEMICOLON
-&td_esclock  &kp Z              &kp X              &kp C                &kp V               &kp B           &kp N                       &kp M               &kp COMMA            &kp DOT            &kp FSLH                   &lt_ext 13 APOSTROPHE
+             &ht_l_thrm LCMD A  &ht_l_thrm LALT S  &ht_l_thrm LSHIFT D  &ht_l_thrm LCTRL F  &lt_ext 15 G    &kp H                       &ht_r_thrm RCTRL J  &ht_r_thrm RSHIFT K  &ht_r_thrm RALT L  &ht_r_thrm LCMD SEMICOLON
+&td_esclock  &kp Z              &kp X              &kp C                &kp V               &kp B           &kp N                       &kp M               &kp COMMA            &kp DOT            &kp FSLH                   &lt_ext 14 APOSTROPHE
                                                    &lt 3 ESCAPE         &lt 1 SPACE         &lt 8 TAB       &ht_st_shift LSHIFT LSHIFT  &ht_bspc 2 BSPC     &ht_optdel 3 0
             >;
         };
@@ -498,6 +498,15 @@
             >;
         };
 
+        r_single+ {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &mt T Y  &mt R U  &mt E I      &mt W O       &mt Q P
+        &trans  &trans  &trans  &trans  &trans    &mt G H  &mt F J  &mt D K      &mt S L       &mt A SEMICOLON
+&trans  &trans  &trans  &trans  &trans  &trans    &mt B N  &mt V M  &mt C COMMA  &mt X PERIOD  &mt Z SLASH      &mt BSPC SPACE
+                        &trans  &trans  &trans    &trans   &trans   &trans
+            >;
+        };
+
         r_kb {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &mt Y T  &mt U R  &mt I E      &mt O W    &mt P Q
@@ -530,7 +539,7 @@
         &trans  &trans  &to 7   &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &trans  &to 8   &trans  &trans  &trans    &trans  &trans  &trans  &to 7   &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &to 1   &trans  &trans  &trans  &trans  &trans
-                        &trans  &mo 15  &trans    &trans  &trans  &trans
+                        &trans  &mo 16  &trans    &trans  &trans  &trans
             >;
         };
 
