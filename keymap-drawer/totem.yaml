@@ -211,7 +211,7 @@ layers:
   - Sft+Alt+DOWN
   - {type: held}
   - {t: ▽, type: trans}
-  - Sft+LEFT
+  - {t: Sft+LEFT, s: Gui+Sft+H}
   - Sft+DOWN
   - Sft+UP
   - Sft+RIGHT
