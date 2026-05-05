@@ -429,6 +429,45 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  r_single+:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Y, h: T}
+  - {t: U, h: R}
+  - {t: I, h: E}
+  - {t: O, h: W}
+  - {t: P, h: Q}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: H, h: G}
+  - {t: J, h: F}
+  - {t: K, h: D}
+  - {t: L, h: S}
+  - {t: ;, h: A}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: N, h: B}
+  - {t: M, h: V}
+  - {t: ',', h: C}
+  - {t: ., h: X}
+  - {t: /, h: Z}
+  - {t: SPACE, h: BSPC}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   r_kb:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
