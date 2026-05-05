@@ -435,32 +435,32 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - T
-  - R
-  - E
-  - W
-  - Q
+  - {t: T, h: Y}
+  - {t: R, h: U}
+  - {t: E, h: I}
+  - {t: W, h: O}
+  - {t: Q, h: P}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - G
-  - F
-  - D
-  - S
-  - A
+  - {t: G, h: H}
+  - {t: F, h: J}
+  - {t: D, h: K}
+  - {t: S, h: L}
+  - {t: A, h: ;}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - B
-  - V
-  - C
-  - X
-  - Z
+  - {t: B, h: N}
+  - {t: V, h: M}
+  - {t: C, h: ','}
+  - {t: X, h: .}
+  - {t: Z, h: /}
   - {t: SPACE, h: BSPC}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
