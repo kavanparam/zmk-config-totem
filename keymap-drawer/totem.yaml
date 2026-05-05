@@ -429,6 +429,45 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  r_kb:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - T
+  - R
+  - E
+  - W
+  - Q
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - G
+  - F
+  - D
+  - S
+  - A
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - B
+  - V
+  - C
+  - X
+  - Z
+  - {t: SPACE, h: BSPC}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -649,13 +688,10 @@ combos:
   k: '-'
   l: [base]
 - p: [6, 16]
-  k: Hyper+SPACE
+  k: Gui+SPACE
   l: [base]
 - p: [16, 36]
   k: PLAY PAUSE
-  l: [base]
-- p: [13, 34]
-  k: Hyper+SPACE
   l: [base]
 - p: [15, 37]
   k: Gui+[
