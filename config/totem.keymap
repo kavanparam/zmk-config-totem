@@ -403,6 +403,24 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        mm_f_bold: mm_f_bold {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_F_BOLD";
+            bindings = <&kp LS(LA(LEFT))>, <&kp LG(B)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        mm_f_italic: mm_f_italic {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_F_ITALIC";
+            bindings = <&kp LS(LG(LEFT))>, <&kp LG(I)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     keymap {
@@ -455,10 +473,10 @@
 
         format {
             bindings = <
-           &trans  &trans         &kp LS(LA(RIGHT))  &trans            &trans              &kp LG(LS(UP))   &kp LS(LA(UP))  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &kp LS(LG(DOWN))
-           &trans  &kp LS(LG(S))  &kp LS(LA(DOWN))   &trans            &trans              &mm_f_highlight  &kp LS(DOWN)    &kp LS(UP)        &kp LS(RIGHT)      &kp LG(K)
-&kp GRAVE  &trans  &kp LG(X)      &kp LG(C)          &kp LG(V)         &kp LS(LA(LEFT))    &kp LEFT         &kp DOWN        &kp UP            &kp RIGHT          &trans            &trans
-                                  &kp LG(V)          &kp LA(LS(LEFT))  &trans              &trans           &trans          &trans
+           &trans  &trans         &kp LS(LA(RIGHT))  &trans            &trans        &kp LG(LS(UP))   &kp LS(LA(UP))  &mm_f_italic  &kp LS(LG(RIGHT))  &kp LS(LG(DOWN))
+           &trans  &kp LS(LG(S))  &kp LS(LA(DOWN))   &trans            &trans        &mm_f_highlight  &kp LS(DOWN)    &kp LS(UP)    &kp LS(RIGHT)      &kp LG(K)
+&kp GRAVE  &trans  &kp LG(X)      &kp LG(C)          &kp LG(V)         &mm_f_bold    &kp LEFT         &kp DOWN        &kp UP        &kp RIGHT          &trans            &trans
+                                  &kp LG(V)          &kp LA(LS(LEFT))  &trans        &trans           &trans          &trans
             >;
         };
 
