@@ -500,10 +500,10 @@
 
         r_kb {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp T   &kp R   &kp E   &kp W  &kp Q
-        &trans  &trans  &trans  &trans  &trans    &kp G   &kp F   &kp D   &kp S  &kp A
-&trans  &trans  &trans  &trans  &trans  &trans    &kp B   &kp V   &kp C   &kp X  &kp Z  &mt BSPC SPACE
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &mt Y T  &mt U R  &mt I E      &mt O W    &mt P Q
+        &trans  &trans  &trans  &trans  &trans    &mt H G  &mt J F  &mt K D      &mt L S    &mt SEMI A
+&trans  &trans  &trans  &trans  &trans  &trans    &mt N B  &mt M V  &mt COMMA C  &mt DOT X  &mt FSLH Z  &mt BSPC SPACE
+                        &trans  &trans  &trans    &trans   &trans   &trans
             >;
         };
 
