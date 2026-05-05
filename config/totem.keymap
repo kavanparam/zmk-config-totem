@@ -389,7 +389,7 @@
         mm_sts_outer: mm_sts_outer {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_STS_OUTER";
-            bindings = <&kp LSHIFT>, <&mo 11>;
+            bindings = <&mm_sts_inner>, <&mo 11>;
 
             #binding-cells = <0>;
             mods = <(MOD_RCTL)>;
@@ -425,7 +425,7 @@
         mm_sts_inner: mm_sts_inner {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_STS_INNER";
-            bindings = <&kp LSHIFT>, <&mo 11>;
+            bindings = <&kp LSHIFT>, <&kp TAB>;
 
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
