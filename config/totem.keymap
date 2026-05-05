@@ -394,6 +394,15 @@
             #binding-cells = <0>;
             mods = <(MOD_RCTL)>;
         };
+
+        mm_f_highlight: mm_f_highlight {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_F_HIGHLIGHT";
+            bindings = <&kp LS(LEFT)>, <&kp LG(LS(H))>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     keymap {
@@ -446,10 +455,10 @@
 
         format {
             bindings = <
-           &trans  &trans         &kp LS(LA(RIGHT))  &trans            &trans              &kp LG(LS(UP))  &kp LS(LA(UP))  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &kp LS(LG(DOWN))
-           &trans  &kp LS(LG(S))  &kp LS(LA(DOWN))   &trans            &trans              &kp LS(LEFT)    &kp LS(DOWN)    &kp LS(UP)        &kp LS(RIGHT)      &kp LG(K)
-&kp GRAVE  &trans  &kp LG(X)      &kp LG(C)          &kp LG(V)         &kp LS(LA(LEFT))    &kp LEFT        &kp DOWN        &kp UP            &kp RIGHT          &trans            &trans
-                                  &kp LG(V)          &kp LA(LS(LEFT))  &trans              &trans          &trans          &trans
+           &trans  &trans         &kp LS(LA(RIGHT))  &trans            &trans              &kp LG(LS(UP))   &kp LS(LA(UP))  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &kp LS(LG(DOWN))
+           &trans  &kp LS(LG(S))  &kp LS(LA(DOWN))   &trans            &trans              &mm_f_highlight  &kp LS(DOWN)    &kp LS(UP)        &kp LS(RIGHT)      &kp LG(K)
+&kp GRAVE  &trans  &kp LG(X)      &kp LG(C)          &kp LG(V)         &kp LS(LA(LEFT))    &kp LEFT         &kp DOWN        &kp UP            &kp RIGHT          &trans            &trans
+                                  &kp LG(V)          &kp LA(LS(LEFT))  &trans              &trans           &trans          &trans
             >;
         };
 
