@@ -307,7 +307,7 @@
         ht_sts: ht_sts {
             compatible = "zmk,behavior-hold-tap";
             label = "HT_STS";
-            bindings = <&mm_sts_outer>, <&mm_sts_capsword>;
+            bindings = <&mm_sts_r_singleplus>, <&mm_sts_outer_capsword>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -386,10 +386,10 @@
             mods = <(MOD_RCTL)>;
         };
 
-        mm_sts_outer: mm_sts_outer {
+        mm_sts_r_singleplus: mm_sts_r_singleplus {
             compatible = "zmk,behavior-mod-morph";
-            label = "MM_STS_OUTER";
-            bindings = <&mm_sts_inner>, <&mo 11>;
+            label = "MM_STS_R_SINGLEPLUS";
+            bindings = <&kp LSHIFT>, <&mo 11>;
 
             #binding-cells = <0>;
             mods = <(MOD_RCTL)>;
@@ -425,11 +425,20 @@
         mm_sts_inner: mm_sts_inner {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_STS_INNER";
-            bindings = <&kp LSHIFT>, <&kp TAB>;
+            bindings = <&st_shift LSHIFT>, <&kp TAB>;
 
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
             keep-mods = <(MOD_RGUI)>;
+        };
+
+        mm_sts_outer_capsword: mm_sts_outer_capsword {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MM_STS_OUTER_CAPSWORD";
+            bindings = <&mm_sts_inner>, <&caps_word>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
         };
     };
 
