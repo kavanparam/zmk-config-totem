@@ -20,7 +20,7 @@ layers:
   - {t: J, h: RCTRL}
   - {t: K, h: RSHIFT}
   - {t: L, h: RALT}
-  - {t: ;, h: LCMD}
+  - {t: ;, h: RIGHT GUI}
   - '&td_esclock'
   - Z
   - X
