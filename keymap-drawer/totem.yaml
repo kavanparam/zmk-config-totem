@@ -557,10 +557,10 @@ layers:
   - Gui+Sft+3
   - Gui+Sft+2
   - {t: ▽, type: trans}
-  - Hyper+1
-  - Hyper+2
-  - Hyper+3
-  - Hyper+4
+  - Alt+Sft+BRIGHTNESS DEC
+  - Sft+Alt+BRI UP
+  - Sft+Alt+VOL DN
+  - Sft+Alt+VOL UP
   - MUTE
   - MUTE
   - Hyper+4
