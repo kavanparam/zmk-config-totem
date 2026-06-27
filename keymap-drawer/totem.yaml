@@ -750,3 +750,18 @@ combos:
 - p: [28, 27]
   k: ESC
   l: [base]
+- p: [32, 14]
+  k: Gui+[
+  l: [base]
+- p: [13, 32]
+  k: Ctl+Sft+TAB
+  l: [base]
+- p: [12, 32]
+  k: Ctl+TAB
+  l: [base]
+- p: [11, 32]
+  k: Gui+]
+  l: [base]
+- p: [10, 32]
+  k: Gui+W
+  l: [base]
