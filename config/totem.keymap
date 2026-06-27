@@ -249,6 +249,46 @@
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
+
+        l-back {
+            bindings = <&kp LG(LBKT)>;
+            key-positions = <32 14>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        l-prev_tab {
+            bindings = <&kp LC(LS(TAB))>;
+            key-positions = <13 32>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        l-next_tab {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <12 32>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        l-forward {
+            bindings = <&kp LG(RBKT)>;
+            key-positions = <11 32>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        l-close {
+            bindings = <&kp LG(W)>;
+            key-positions = <10 32>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
     };
 
     behaviors {
