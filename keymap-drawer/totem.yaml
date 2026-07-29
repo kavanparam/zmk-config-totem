@@ -422,7 +422,7 @@ layers:
   - C
   - X
   - Z
-  - SPACE
+  - {t: SPACE, h: BSPC}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
