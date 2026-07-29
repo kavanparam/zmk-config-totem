@@ -767,3 +767,6 @@ combos:
   l: [base]
 - p: [27, 37]
   k: Gui+M
+- p: [14, 33]
+  k: device
+  l: [base]
