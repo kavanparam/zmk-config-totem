@@ -480,6 +480,39 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        wikilink_bracket: wikilink_bracket {
+            compatible = "zmk,behavior-hold-tap";
+            label = "WIKILINK_BRACKET";
+            bindings = <&kp>, <&wikilink>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        pasteLink_paste: pasteLink_paste {
+            compatible = "zmk,behavior-hold-tap";
+            label = "PASTELINK_PASTE";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&pasteLink>;
+        };
+    };
+
+    macros {
+        wikilink: wikilink {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LBKT &kp LBKT>;
+            label = "WIKILINK";
+        };
+
+        pasteLink: pasteLink {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LA(LEFT)) &kp LG(V)>;
+            label = "PASTELINK";
+        };
     };
 
     keymap {
@@ -505,10 +538,10 @@
 
         sym_func {
             bindings = <
-           &kp HASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPS     &kp CARET        &kp F15  &kp F7  &kp F8  &kp F9  &kp F12
-           &mt AT STAR  &kp LBKT              &kp RBKT               &kp PERCENT  &kp BACKSLASH    &kp F14  &kp F4  &kp F5  &kp F6  &kp F11
-&kp GRAVE  &kp LT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER    &kp GT           &kp F13  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                              &kp N0                 &kp SPACE    &kp DOLLAR       &trans   &trans  &trans
+           &kp HASH     &kp LEFT_BRACE            &kp RIGHT_BRACE        &kp AMPS     &kp CARET        &kp F15  &kp F7  &kp F8  &kp F9  &kp F12
+           &mt AT STAR  &wikilink_bracket LBKT 0  &kp RBKT               &kp PERCENT  &kp BACKSLASH    &kp F14  &kp F4  &kp F5  &kp F6  &kp F11
+&kp GRAVE  &kp LT       &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp UNDER    &kp GT           &kp F13  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                                  &kp N0                 &kp SPACE    &kp DOLLAR       &trans   &trans  &trans
             >;
         };
 
@@ -532,10 +565,10 @@
 
         format {
             bindings = <
-           &trans  &trans         &kp LS(LA(RIGHT))  &trans            &trans        &kp LG(LS(UP))   &kp LS(LA(UP))  &mm_f_italic  &kp LS(LG(RIGHT))  &kp LS(LG(DOWN))
-           &trans  &kp LS(LG(S))  &kp LS(LA(DOWN))   &trans            &trans        &mm_f_highlight  &kp LS(DOWN)    &kp LS(UP)    &kp LS(RIGHT)      &kp LG(K)
-&kp GRAVE  &trans  &kp LG(X)      &kp LG(C)          &kp LG(V)         &mm_f_bold    &kp LEFT         &kp DOWN        &kp UP        &kp RIGHT          &trans            &trans
-                                  &kp LG(V)          &kp LA(LS(LEFT))  &trans        &trans           &trans          &trans
+           &trans  &trans         &kp LS(LA(RIGHT))         &trans            &trans        &kp LG(LS(UP))   &kp LS(LA(UP))  &mm_f_italic  &kp LS(LG(RIGHT))  &kp LS(LG(DOWN))
+           &trans  &kp LS(LG(S))  &kp LS(LA(DOWN))          &trans            &trans        &mm_f_highlight  &kp LS(DOWN)    &kp LS(UP)    &kp LS(RIGHT)      &kp LG(K)
+&kp GRAVE  &trans  &kp LG(X)      &kp LG(C)                 &kp LG(V)         &mm_f_bold    &kp LEFT         &kp DOWN        &kp UP        &kp RIGHT          &trans            &trans
+                                  &pasteLink_paste LG(V) 0  &kp LA(LS(LEFT))  &trans        &trans           &trans          &trans
             >;
         };
 
