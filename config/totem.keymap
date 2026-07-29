@@ -289,6 +289,11 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        r-minimize {
+            bindings = <&kp LG(M)>;
+            key-positions = <27 37>;
+        };
     };
 
     behaviors {
