@@ -765,3 +765,5 @@ combos:
 - p: [10, 32]
   k: Gui+W
   l: [base]
+- p: [27, 37]
+  k: Gui+M
