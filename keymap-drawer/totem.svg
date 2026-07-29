@@ -727,7 +727,8 @@ path.combo {
 </g>
 <g transform="translate(140, 118) rotate(-4.0)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">[</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;wikilink</tspan></text>
+<text x="0" y="24" class="key hold">[</text>
 </g>
 <g transform="translate(200, 84)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1347,7 +1348,8 @@ path.combo {
 </g>
 <g transform="translate(241, 236)" class="key held keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap">Gui+V</text>
+<text x="0" y="0" class="key held tap"><tspan style="font-size: 70%">&amp;pasteLink</tspan></text>
+<text x="0" y="24" class="key held hold">Gui+V</text>
 </g>
 <g transform="translate(303, 245) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
