@@ -811,5 +811,5 @@ combos:
   k: device
   l: [base]
 - p: [24, 33]
-  k: '&num_word'
+  k: '&num_word 2'
   l: [base]
