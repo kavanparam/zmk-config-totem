@@ -78,6 +78,45 @@ layers:
   - {t: '=', h: LSHIFT}
   - BACKSPACE
   - '0'
+  num:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '*'
+  - '7'
+  - '8'
+  - '9'
+  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
+  - '4'
+  - '5'
+  - '6'
+  - ':'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '1'
+  - '2'
+  - '3'
+  - /
+  - '%'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '=', h: LSHIFT}
+  - BACKSPACE
+  - '0'
   sym_func:
   - '#'
   - '{'
@@ -767,6 +806,10 @@ combos:
   l: [base]
 - p: [27, 37]
   k: Gui+M
+  l: [base]
 - p: [14, 33]
   k: device
+  l: [base]
+- p: [24, 33]
+  k: '&num_word'
   l: [base]
