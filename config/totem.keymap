@@ -513,6 +513,11 @@
             tapping-term-ms = <200>;
             bindings = <&kp>, <&pasteLink>;
         };
+
+        num_word: num_word {
+            compatible = "zmk,behavior-auto-layer";
+            #binding-cells = <1>;
+        };
     };
 
     macros {
