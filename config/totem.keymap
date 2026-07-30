@@ -308,7 +308,7 @@
         };
 
         l-num_word {
-            bindings = <&num_word>;
+            bindings = <&num_word 2>;
             key-positions = <24 33>;
             timeout-ms = <30>;
             require-prior-idle-ms = <50>;
