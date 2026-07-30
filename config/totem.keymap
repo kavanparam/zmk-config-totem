@@ -310,7 +310,7 @@
         };
 
         l-num_word {
-            bindings = <&num_word NUM>;
+            bindings = <&num_word>;
             key-positions = <24 33>;
             timeout-ms = <30>;
             require-prior-idle-ms = <50>;
@@ -527,6 +527,8 @@
 
         num_word: num_word {
             compatible = "zmk,behavior-auto-layer";
+            #binding-cells = <0>;
+            layers = <NUM>; // Replace NUM by index of numbers layer  
             continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL LSHIFT>;
             ignore-numbers;
         };
