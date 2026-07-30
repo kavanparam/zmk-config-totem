@@ -527,7 +527,7 @@
 
         num_word: num_word {
             compatible = "zmk,behavior-auto-layer";
-            layers = <NUM>; // Replace NUM by index of numbers layer
+            layer = <NUM>; // Replace NUM by index of numbers layer
             continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL LSHIFT>;
             ignore-numbers;
         };
