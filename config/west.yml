@@ -19,8 +19,5 @@ manifest:
     - name: zmk-hid-io
       remote: badjeff
       revision: main
-    - name: zmk-input-behavior-listener
-      remote: badjeff
-      revision: main
   self:
     path: config
