@@ -4,10 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
-    - name: zmk-hid-io
+    - name: badjeff
       url-base: https://github.com/badjeff
-      remote: badjeff
-      revision: main
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -17,6 +15,9 @@ manifest:
       import: app/west.yml
     - name: zmk-auto-layer
       remote: urob
+      revision: main
+    - name: zmk-hid-io
+      remote: badjeff
       revision: main
   self:
     path: config
