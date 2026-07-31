@@ -116,7 +116,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: LSHIFT, h: '='}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: '0', h: z_hyp}
   sym_func:
   - '#'
   - '{'
