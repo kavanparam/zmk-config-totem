@@ -5,6 +5,7 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
     - name: zmk-hid-io
+      url-base: https://github.com/badjeff
       remote: badjeff
       revision: main
     # Additional modules containing boards/shields/custom code can be listed here as well
