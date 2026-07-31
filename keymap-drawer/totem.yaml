@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHIFT}
   - {t: L, h: RALT}
   - {t: ;, h: RIGHT GUI}
-  - '&td_esclock'
+  - '&td_num_lock'
   - Z
   - X
   - C
@@ -114,8 +114,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '=', h: LSHIFT}
-  - BACKSPACE
+  - {t: LSHIFT, h: '='}
+  - {t: ▽, type: trans}
   - '0'
   sym_func:
   - '#'
