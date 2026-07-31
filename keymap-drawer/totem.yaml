@@ -44,7 +44,7 @@ layers:
   - BACKSPACE
   - UP
   - DELETE
-  - Alt+DELETE
+  - '&hidiokp'
   - '*'
   - '7'
   - '8'
