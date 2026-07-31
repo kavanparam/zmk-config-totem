@@ -35,7 +35,7 @@
     };
 
     hidiokp_ibl {
-        compatible = "zmk,input-behavior-listener";
+        compatible = "zmk,input-listener";
         device = <&hidiokp>;
         input-processors = <&zip_fwd_to_hid_io>;
     };
