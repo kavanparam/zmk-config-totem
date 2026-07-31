@@ -55,7 +55,7 @@
         };
 
         l-shift1 {
-            bindings = <&st_shift LSHIFT>;
+            bindings = <&sts LSHIFT>;
             key-positions = <24 25>;
             layers = <0 1 9 10>;
             timeout-ms = <18>;
@@ -364,25 +364,25 @@
             tapping-term-ms = <200>;
         };
 
-        td_esclock: td_esclock {
+        td_num_lock: td_num_lock {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_ESCLOCK";
+            label = "TD_NUM_LOCK";
             #binding-cells = <0>;
-            bindings = <&ht_td_esclock 15 ESC>, <&kp LG(LC(Q))>;
+            bindings = <&ht_num_quick 15 ESC>, <&kp LG(LC(Q))>;
         };
 
-        ht_sts: ht_sts {
+        ht_sts_capsword: ht_sts_capsword {
             compatible = "zmk,behavior-hold-tap";
-            label = "HT_STS";
+            label = "HT_STS_CAPSWORD";
             bindings = <&mm_sts_r_singleplus>, <&mm_sts_outer_capsword>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
 
-        st_shift: st_shift {
+        sts: sts {
             compatible = "zmk,behavior-sticky-key";
-            label = "ST_SHIFT";
+            label = "STS";
             bindings = <&kp>;
             #binding-cells = <1>;
             quick-release;
@@ -390,18 +390,18 @@
             ignore-modifiers;
         };
 
-        ht_td_esclock: ht_td_esclock {
+        ht_num_quick: ht_num_quick {
             compatible = "zmk,behavior-hold-tap";
-            label = "HT_TD_ESCLOCK";
+            label = "HT_NUM_QUICK";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            bindings = <&mo>, <&kp>;
+            bindings = <&mo>, <&num_word>;
         };
 
         mm_sts_capsword: mm_sts_capsword {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_STS_CAPSWORD";
-            bindings = <&st_shift LSHIFT>, <&caps_word>;
+            bindings = <&sts LSHIFT>, <&caps_word>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -492,7 +492,7 @@
         mm_sts_inner: mm_sts_inner {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_STS_INNER";
-            bindings = <&st_shift LSHIFT>, <&kp TAB>;
+            bindings = <&sts LSHIFT>, <&kp TAB>;
 
             #binding-cells = <0>;
             mods = <(MOD_RGUI)>;
@@ -530,6 +530,15 @@
             continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL LSHIFT>;
             ignore-numbers;
         };
+
+        ht_sts_kp: ht_sts_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_STS_KP";
+            bindings = <&kp>, <&sts>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     macros {
@@ -553,10 +562,10 @@
 
         base {
             bindings = <
-             &kp Q              &kp W              &kp E                &kp R               &kp T           &kp Y                  &kp U               &kp I                &kp O              &kp P
-             &ht_l_thrm LCMD A  &ht_l_thrm LALT S  &ht_l_thrm LSHIFT D  &ht_l_thrm LCTRL F  &lt_ext 16 G    &kp H                  &ht_r_thrm RCTRL J  &ht_r_thrm RSHIFT K  &ht_r_thrm RALT L  &ht_r_thrm RIGHT_GUI SEMICOLON
-&td_esclock  &kp Z              &kp X              &kp C                &kp V               &kp B           &kp N                  &kp M               &kp COMMA            &kp DOT            &kp FSLH                        &lt_ext 15 APOSTROPHE
-                                                   &lt 4 ESCAPE         &lt 1 SPACE         &lt 9 TAB       &ht_sts LSHIFT LSHIFT  &ht_bspc 2 BSPC     &ht_optdel 4 0
+              &kp Q              &kp W              &kp E                &kp R               &kp T           &kp Y                           &kp U               &kp I                &kp O              &kp P
+              &ht_l_thrm LCMD A  &ht_l_thrm LALT S  &ht_l_thrm LSHIFT D  &ht_l_thrm LCTRL F  &lt_ext 16 G    &kp H                           &ht_r_thrm RCTRL J  &ht_r_thrm RSHIFT K  &ht_r_thrm RALT L  &ht_r_thrm RIGHT_GUI SEMICOLON
+&td_num_lock  &kp Z              &kp X              &kp C                &kp V               &kp B           &kp N                           &kp M               &kp COMMA            &kp DOT            &kp FSLH                        &lt_ext 15 APOSTROPHE
+                                                    &lt 4 ESCAPE         &lt 1 SPACE         &lt 9 TAB       &ht_sts_capsword LSHIFT LSHIFT  &ht_bspc 2 BSPC     &ht_optdel 4 0
             >;
         };
 
@@ -571,10 +580,10 @@
 
         num {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &kp STAR          &kp N7         &kp N8  &kp N9  &kp DOT
-        &trans  &trans  &trans  &trans  &trans    &kp PLUS          &kp N4         &kp N5  &kp N6  &kp COLON
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS         &kp NUMBER_1   &kp N2  &kp N3  &kp SLASH  &kp PERCENT
-                        &trans  &trans  &trans    &mt LSHIFT EQUAL  &kp BACKSPACE  &kp N0
+        &trans  &trans  &trans  &trans  &trans    &kp STAR                 &kp N7        &kp N8  &kp N9  &kp DOT
+        &trans  &trans  &trans  &trans  &trans    &kp PLUS                 &kp N4        &kp N5  &kp N6  &kp COLON
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS                &kp NUMBER_1  &kp N2  &kp N3  &kp SLASH  &kp PERCENT
+                        &trans  &trans  &trans    &ht_sts_kp EQUAL LSHIFT  &trans        &kp N0
             >;
         };
 
