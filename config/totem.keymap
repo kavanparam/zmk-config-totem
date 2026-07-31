@@ -17,7 +17,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define NUM 2
-#define QUICK 15
 
 / {
     combos {
@@ -369,7 +368,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_NUM_LOCK";
             #binding-cells = <0>;
-            bindings = <&ht_num_quick 15 ESC>, <&kp LG(LC(Q))>;
+            bindings = <&ht_num_quick 15 NUM>, <&kp LG(LC(Q))>;
         };
 
         ht_sts_capsword: ht_sts_capsword {
@@ -396,7 +395,7 @@
             label = "HT_NUM_QUICK";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            bindings = <&mo QUICK>, <&num_word NUM>;
+            bindings = <&mo>, <&num_word>;
         };
 
         mm_sts_capsword: mm_sts_capsword {
