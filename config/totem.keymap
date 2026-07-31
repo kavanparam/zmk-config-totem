@@ -17,14 +17,14 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define NUM 2
-#define HID_IO_USAGE_FWD_TO_MOUSE 1
+#define HID_IO_USAGE_FWD_TO_JOYSTICK 2
 
 / {
     /* Setup input-processor to intecept input and forward to new usage page  */
     zip_fwd_to_hid_io: zip_forward_fwd_to_hid_io {
         compatible = "zmk,input-processor-fwd-to-hid-io";
         #input-processor-cells = <0>;
-        usage = <HID_IO_USAGE_FWD_TO_MOUSE>;
+        usage = <HID_IO_USAGE_FWD_TO_JOYSTICK>;
     };
 
     /* Setup joystick key press behavior and listener */
