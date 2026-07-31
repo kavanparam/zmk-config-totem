@@ -527,7 +527,7 @@
 
         num_word: num_word {
             compatible = "zmk,behavior-auto-layer";
-            continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL LSHIFT>;
+            continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL LSHIFT COLON>;
             ignore-numbers;
         };
 
