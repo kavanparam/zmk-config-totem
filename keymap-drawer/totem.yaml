@@ -815,3 +815,6 @@ combos:
   l: [base]
 - p: [14, 34]
   k: {t: LSHIFT, h: sticky}
+- p: [16, 35]
+  k: $
+  l: [nav_num, num]

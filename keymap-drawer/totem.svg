@@ -706,6 +706,12 @@ path.combo {
 <text x="336" y="196" class="combo tap">LSHIFT</text>
 <text x="336" y="207" class="combo hold">sticky</text>
 </g>
+<g class="combo combopos-3">
+<path d="M588,191 l42,-64" class="combo"/>
+<path d="M588,191 l-42,64" class="combo"/>
+<rect rx="6" ry="6" x="574" y="178" width="28" height="26" class="combo"/>
+<text x="588" y="191" class="combo tap">$</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 729)" class="layer-num">
@@ -876,6 +882,12 @@ path.combo {
 <rect rx="6" ry="6" x="322" y="183" width="28" height="26" class="combo"/>
 <text x="336" y="196" class="combo tap">LSHIFT</text>
 <text x="336" y="207" class="combo hold">sticky</text>
+</g>
+<g class="combo combopos-2">
+<path d="M588,191 l42,-64" class="combo"/>
+<path d="M588,191 l-42,64" class="combo"/>
+<rect rx="6" ry="6" x="574" y="178" width="28" height="26" class="combo"/>
+<text x="588" y="191" class="combo tap">$</text>
 </g>
 </g>
 </g>
