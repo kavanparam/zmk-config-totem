@@ -813,3 +813,5 @@ combos:
 - p: [24, 33]
   k: '&num_word 2'
   l: [base]
+- p: [14, 34]
+  k: {t: LSHIFT, h: sticky}
