@@ -339,6 +339,11 @@
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
+
+        l-shift2 {
+            bindings = <&sts LSHIFT>;
+            key-positions = <14 34>;
+        };
     };
 
     behaviors {
