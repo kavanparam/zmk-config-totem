@@ -149,7 +149,7 @@
         };
 
         l-enter {
-            bindings = <&kp TAB>;
+            bindings = <&kp ENTER>;
             key-positions = <2 3>;
             timeout-ms = <22>;
             require-prior-idle-ms = <150>;
