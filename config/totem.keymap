@@ -343,6 +343,16 @@
         l-shift2 {
             bindings = <&sts LSHIFT>;
             key-positions = <14 34>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+        };
+
+        r-dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <16 35>;
+            layers = <1 2>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
         };
     };
 
