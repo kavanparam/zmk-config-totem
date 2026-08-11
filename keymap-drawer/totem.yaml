@@ -742,7 +742,7 @@ combos:
   k: Hyper+SPACE
   l: [base]
 - p: [2, 3]
-  k: TAB
+  k: ENTER
   l: [base]
 - p: [7, 8]
   k: {t: mouse, h: toggle}
