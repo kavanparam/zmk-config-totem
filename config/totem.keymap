@@ -48,7 +48,7 @@
         l-undo {
             bindings = <&kp LG(Z)>;
             key-positions = <12 23>;
-            layers = <0>;
+            layers = <0 14>;
             timeout-ms = <25>;
             require-prior-idle-ms = <100>;
         };
@@ -56,7 +56,7 @@
         l-redo {
             bindings = <&kp LG(LS(Z))>;
             key-positions = <11 22>;
-            layers = <0>;
+            layers = <0 14>;
             timeout-ms = <25>;
             require-prior-idle-ms = <100>;
         };
@@ -64,7 +64,7 @@
         l-paste {
             bindings = <&kp LG(V)>;
             key-positions = <23 24>;
-            layers = <0>;
+            layers = <0 14>;
             timeout-ms = <22>;
             require-prior-idle-ms = <150>;
         };
@@ -72,7 +72,7 @@
         l-copy {
             bindings = <&kp LG(C)>;
             key-positions = <23 22>;
-            layers = <0>;
+            layers = <0 14>;
             timeout-ms = <22>;
             require-prior-idle-ms = <150>;
         };
@@ -88,7 +88,7 @@
         l-cut {
             bindings = <&kp LG(X)>;
             key-positions = <22 24>;
-            layers = <0>;
+            layers = <0 14>;
             timeout-ms = <22>;
             require-prior-idle-ms = <150>;
         };
@@ -153,7 +153,7 @@
             key-positions = <2 3>;
             timeout-ms = <22>;
             require-prior-idle-ms = <150>;
-            layers = <0>;
+            layers = <0 14>;
         };
 
         r-mouse {
@@ -169,7 +169,7 @@
             key-positions = <13 33>;
             timeout-ms = <30>;
             require-prior-idle-ms = <50>;
-            layers = <0>;
+            layers = <0 14>;
         };
 
         f_bold {
@@ -191,7 +191,7 @@
         r_dash {
             bindings = <&kp MINUS>;
             key-positions = <13 27>;
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             require-prior-idle-ms = <50>;
             layers = <0>;
         };
@@ -349,10 +349,50 @@
 
         r-dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <16 35>;
+            key-positions = <16 36>;
             layers = <1 2>;
             timeout-ms = <30>;
             require-prior-idle-ms = <50>;
+        };
+
+        r-hide {
+            bindings = <&kp LG(H)>;
+            key-positions = <28 37>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        l-notif {
+            bindings = <&kp LS(LA(LC(LG(N))))>;
+            key-positions = <32 25>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        l-minimize {
+            bindings = <&kp LG(M)>;
+            key-positions = <24 32>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        l-hide {
+            bindings = <&kp LG(H)>;
+            key-positions = <23 32>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <50>;
+            layers = <0>;
+        };
+
+        r-s_enter {
+            bindings = <&kp LS(ENTER)>;
+            key-positions = <7 5>;
+            timeout-ms = <25>;
+            require-prior-idle-ms = <100>;
+            layers = <0>;
         };
     };
 
@@ -627,7 +667,7 @@
 
         sym_func {
             bindings = <
-           &kp HASH     &kp LEFT_BRACE            &kp RIGHT_BRACE        &kp AMPS     &kp CARET        &kp F15  &kp F7  &kp F8  &kp F9  &kp F12
+           &kp HASH     &kp LEFT_BRACE            &kp RIGHT_BRACE        &kp CARET    &kp AMPERSAND    &kp F15  &kp F7  &kp F8  &kp F9  &kp F12
            &mt AT STAR  &wikilink_bracket LBKT 0  &kp RBKT               &kp PERCENT  &kp BACKSLASH    &kp F14  &kp F4  &kp F5  &kp F6  &kp F11
 &kp GRAVE  &kp LT       &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp UNDER    &kp GT           &kp F13  &kp F1  &kp F2  &kp F3  &kp F10  &trans
                                                   &kp N0                 &kp SPACE    &kp DOLLAR       &trans   &trans  &trans
@@ -636,10 +676,10 @@
 
         z_hyp {
             bindings = <
-        &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE            &kp LA(RIGHT)                             &kp DEL                  &trans                   &kp LG(UP)             &kp LA(UP)                 &kp LG(LEFT)               &kp LG(RIGHT)  &kp LG(DOWN)
-        &kp CAPS               &lt 7 LS(LA(LC(LG(S))))  &kp LA(DOWN)                              &lt 6 LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))    &kp LEFT               &kp DOWN                   &kp UP                     &kp RIGHT      &kp SPACE
-&trans  &trans                 &trans                   &mt LA(LC(LG(LS(N6)))) LS(LA(LC(LG(C))))  &kp LS(LA(LG(LC(V))))    &kp LA(LEFT)             &kp LS(LA(LC(LG(N))))  &mt LA(LS(LEFT)) LA(BSPC)  &mt LA(LS(RIGHT)) LA(DEL)  &kp ESC        &tog 4        &kp ENTER
-                                                        &to 0                                     &trans                   &trans                   &kp SPACE              &trans                     &trans
+               &kp LS(LA(LC(LG(Q))))  &kp BACKSPACE              &kp LA(RIGHT)                               &kp DEL                    &trans                   &kp LG(UP)             &kp LA(UP)                   &kp LG(LEFT)                 &kp LG(RIGHT)  &kp LG(DOWN)
+               &kp CAPS               &lt (7) LS(LA(LC(LG(S))))  &kp LA(DOWN)                                &lt (6) LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))    &kp LEFT               &kp DOWN                     &kp UP                       &kp RIGHT      &kp SPACE
+&kp LS(ENTER)  &trans                 &trans                     &mt (LA(LC(LG(LS(N6))))) LS(LA(LC(LG(C))))  &kp LS(LA(LG(LC(V))))      &kp LA(LEFT)             &kp LS(LA(LC(LG(N))))  &mt (LA(LS(LEFT))) LA(BSPC)  &mt (LA(LS(RIGHT))) LA(DEL)  &kp ESC        &tog 4        &kp ENTER
+                                                                 &to 0                                       &trans                     &trans                   &kp SPACE              &trans                       &trans
             >;
         };
 
