@@ -394,6 +394,11 @@
             require-prior-idle-ms = <100>;
             layers = <0>;
         };
+
+        r-soft_off {
+            bindings = <&soft_off>;
+            key-positions = <31 37>;
+        };
     };
 
     behaviors {
